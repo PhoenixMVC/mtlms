@@ -1,0 +1,43 @@
+.elcProQuiz_editQuizLink{
+    float: right;
+    position: relative;
+    z-index: 99;
+}
+
+.elcProQuiz_editQuizLink div{
+    position: absolute;
+    right: 0;
+    white-space: nowrap;
+}
+
+.elcProQuiz_editQuizLink:after{
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+
+.ld-expand-button.elc-hide-items-wrapper .ld-icon,
+.ld-expandable.elc-hide-items-wrapper {
+    display: none;
+    /*border: 2px solid #ff0000 !important;*/
+}
+
+.ld-expand-button.elc-hide-items-wrapper {
+    pointer-events: none;
+    /*border: 2px solid #ff0000 !important;*/
+}
+
+.elc-hide-ld-expand-button + .ld-expand-button.ld-button-alternate {
+    display: none;
+    /*border: 2px solid #ff0000 !important;*/
+}
+
+.elc-hide-quizzes .ld-table-list.ld-topic-list.ld-quiz-list {
+    display: none;
+}
+
+/*
+.ld-table-list-item-preview[href*="/quizzes/"] {
+    border: 2px solid red !important;
+}
+*/

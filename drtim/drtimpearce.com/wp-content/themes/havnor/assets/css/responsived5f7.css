@@ -1,0 +1,3877 @@
+/**
+ * VictorThemes Styling
+*/
+@media only screen and (max-width: 1868px) and (min-width: 1550px) {
+  .header-hanor-style-one nav.hanor-navigation .hanor-brand {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header-hanor-style-one .hanor-navigation > ul > li > a {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media screen and (max-width:1700px) {
+  /* Hanor Services Modern Page CSS */
+  .hanor-stunning-services .presentation-image {
+    margin-left: 0;
+  }
+  /* HF */
+  .header-hanor-style-one .hanor-header .hanor-navigation > ul > li > a {
+    display: inline-block;
+    padding: 41px 13px;
+  }
+  .hanor-footer .footer-bg-image {
+    background-position: bottom right;
+    background-size: 20%;
+  }
+}
+
+@media only screen and (max-width: 1550px) and (min-width: 1341px) {
+  /* Hanor Normal CSS */
+  .has-sidebarnav .container {
+    width: 970px;
+  }
+}
+@media only screen and (max-width: 1366px) and (min-width: 1300px) {
+  .hanor-header-three .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width:1550px) {
+  /* HF */
+  .header-hanor-style-one .hanor-header [class*="col-md-3"] {
+    width: 50%;
+    float: left;
+  }
+  .header-hanor-style-one .hanor-header [class*="col-md-6"] {
+    width: 100%;
+  }  
+  .header-hanor-style-one .search-box {
+    right: 0;
+  }
+}
+@media screen and (max-width:1450px) {
+  /* Hanor Normal CSS */
+  .testimonials-style-two .owl-carousel .owl-dots,
+  .owl-carousel[data-animatein="fadeIn"] .owl-dots {
+    right: -20px;
+  }
+  /* Hanor Contactus Modern Page CSS */
+  .contact-form .hanor-section-title br {
+    display: none;
+  }
+  .promo-item .hanor-image img {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width:1340px) {
+  /* Hanor Normal CSS */
+  .hanor-fullwidth-header .hanor-header {
+    padding: 0 50px;
+  }
+  .swiper-button-prev {
+    left: 25px;
+  }
+  .swiper-button-next {
+    right: 25px;
+  }
+  .hanor-topbar .nice-select .list {
+    left: auto;
+    right: 0;
+  }
+  /* Hanor Home Landing Page CSS */
+  .difference-info {
+    padding: 100px;
+  }
+  
+  /* Hanor Home Blog Page CSS */
+  .stories-style-two .owl-drag .owl-prev:before {
+    left: 25px;
+  }
+  .stories-style-two .owl-drag .owl-next:before {
+    right: 25px;
+  }
+  /* Hanor Contactus Modern Page CSS */
+  .contact-form {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  .featuredPostSlider, #slick-pager {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
+  .postslider .postslider-wrap .pagerNavigationTop,
+  .postslider .postslider-wrap:hover .pagerNavigationTop {
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -80px;
+    right: auto;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .postslider .postslider-wrap .pagerNavigationBottom,
+  .postslider .postslider-wrap:hover .pagerNavigationBottom {
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: auto;
+    right: -80px;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  .postslider .postslider-wrap .pagerNavigationTop span i,
+  .postslider .postslider-wrap .pagerNavigationBottom span i {
+    transform: rotate(-90deg);
+  } 
+  .postslider .postslider-wrap:hover .pagerNavigationTop {
+    opacity: 1;
+    left: -60px;
+  }
+  .postslider .postslider-wrap:hover .pagerNavigationBottom {
+    opacity: 1;
+    right: -60px;
+  }
+  .slick-pager .slick-slide {
+    padding: 25px 30px 20px;
+    border-radius: 0 0 5px 5px;
+    background: #fff;
+  }
+  .featuredPostSlider img {
+    border-radius: 5px 5px 0 0;
+  }
+  .hanor-counting .count-item .counter-value {
+    font-size: 30px;
+    width: 9%;
+  }
+  .hanor-outcome-services .nav-tabs > a {
+    padding-right: 20px;
+  }
+
+}
+@media screen and (max-width:1270px) {
+  .job-btn {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width:1270px) {
+  /* Hanor Normal CSS */
+  .container {
+    padding: 0;
+  }
+  /* Hanor Home Startup CSS */
+  .blogs-style-two .row {
+    margin: 0 -25px;
+  }
+  .blogs-style-two [class*="col-"] {
+    padding: 0 25px;
+  }
+  /* Hanor Home Startup CSS */
+  .hanor-experience .row {
+    margin: 0 -35px;
+  }
+  .hanor-experience [class*="col-"] {
+    padding: 0 35px;
+  }
+  /* Hanor Faq & Pricings Page CSS */
+  .hanor-questions .row {
+    margin: 0 -40px;
+  }
+  .hanor-questions [class*="col-"] {
+    padding: 0 40px;
+  }
+  /* Hanor Blog Single Page CSS */
+  .hanor-related-articles .row {
+    margin: 0 -10px;
+  }
+  .hanor-related-articles [class*="col-"] {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width:1216px) {
+  .banner-center .hanor-breadcrumbs.breadcrumb-one {
+    width: 100%;
+    left: 0;
+  }
+}
+@media screen and (max-width:1199px) {
+  /* Hanor Normal CSS */
+  .blog-info h4 {
+    font-size: 18px;
+  }
+  .hanor-section-title.cpation-left {
+    float: none;
+  }
+  .hanor-fullwidth-header .hanor-header .header-buttons {
+    padding-left: 10px;
+  }
+  .hanor-fullwidth-header .hanor-header .header-links-wrap {
+    padding-left: 0;
+    margin-left: 0;
+    border-left: none;
+  }
+  .hanor-header .container {
+    position: relative;
+  }
+  .hanor-header-right {
+    position: unset;
+  }  
+  .header-buttons {
+    padding-left: 0;
+    margin-right: 60px;
+    position: relative;
+    z-index: 4;
+  }
+  .hanor-header-right.dhav-btns .header-links-wrap {
+    margin-right: 60px;
+  }
+  .mean-nav .menu-text-wrap:before {
+    content: none;
+  }
+  .mean-nav .dropdown-nav > li.has-dropdown > a:after {
+    content: none;
+  }
+  .mean-nav .dropdown-nav {
+    background: transparent;
+  }
+  .hanor-banner, .hanor-banner[class*="banner-style-"], .swiper-container {
+    height: 800px;
+    min-height: 800px;
+  }
+  .caption-wrap-inner h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .caption-wrap-inner .hanor-btns-group {
+    padding: 15px 0;
+  }
+  .caption-title {
+    padding: 10px 0;
+  }
+  .blog-item .blog-info {
+    -webkit-border-radius: 0 0 4px 4px;
+    -ms-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+  }
+  .blog-item.hanor-hover .blog-info {
+    background: #333333;
+  }
+  .blogs-style-five .blog-item.hanor-hover .blog-info {
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+  }
+  .blog-item > .hanor-image img {
+    -webkit-border-radius: 4px 4px 0 0;
+    -ms-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+  }
+  .blogs-style-five .blog-item > .hanor-image img {
+    border-radius: 5px;
+  }
+  .blog-info {
+    position: static;
+    height: auto;
+    padding: 20px 20px 25px;
+  }
+  .blogs-style-two.have-border .blog-info {
+    border-top: none;
+  }
+  .hanor-subscribe input[type="submit"] {
+    min-width: 100%;
+  }
+  .hanor-page-title {
+    padding: 150px 0;
+  }
+  .hanor-widget.woocommerce.widget_shopping_cart li, .hanor-widget.woocommerce.widget_shopping_cart .cart_list li {
+    padding-left: 25px;
+  }
+  .hanor-widget.woocommerce.widget_shopping_cart .widget_shopping_cart_content {
+    padding: 12px;
+  }
+  .woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    margin-right: 17px;
+  }
+  /* Hanor Home Startup Page CSS */
+  .help-item {
+    padding: 60px 30px;
+  }
+  .blogs-style-two .blog-item > .hanor-image img {
+    border-radius: 5px;
+  }
+  /* Hanor Home Agency Page CSS */
+  .services-style-two .service-item {
+    padding-right: 0;
+  }
+  /* Hanor Home Business Page CSS */
+  .skills-style-three .skills-info-wrap {
+    padding-left: 35px;
+  }
+  /* Hanor Home Business Page CSS */
+  .professional-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Hanor Home Landing Page CSS */
+  .difference-info {
+    padding: 70px;
+  }
+  /* Hanor Home Blog Page CSS */
+  .hanor-stories .hanor-subscribe {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .hanor-stories.stories-style-three {
+    text-align: center;
+  }
+  .stories-style-three .story-item {
+    display: inline-block;
+  }
+  /* Hanor About Company Page CSS */
+  .promo-style-two .promo-info {
+    max-width: 100%;
+    padding-top: 30px;
+  }
+  .promo-style-two .promo-title {
+    padding-bottom: 10px;
+  }
+  /* Hanor About Me Page CSS */
+  .hanor-about-me .hanor-background {
+    min-height: 700px;
+  }
+  .my-info {
+    padding: 10%;
+  }
+  /* Hanor Services Classic Page CSS */
+  .services-style-four .service-info {
+    padding: 15px;
+  }
+  .services-style-four .service-info {
+    min-height: 200px;
+  }
+  .services-style-four .service-item .hanor-icon {
+    padding-bottom: 25px;
+  }
+  .hanor-video-presentation .hanor-section-title {
+    padding-right: 0;
+  }
+  .hanor-outcome-services .nav-tabs {
+    font-size: 18px;
+    text-align: center;
+  }
+  .hanor-outcome-services.tab-style-five .nav-tabs {
+    text-align: left;
+  }
+  .hanor-outcome-services .nav-tabs > a,
+  .hanor-outcome-services.tab-style-six .nav-tabs > a {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  /* Hanor Services Modern Page CSS */
+  .hanor-stunning-services .hanor-section-title br {
+    display: none;
+  }
+  .hanor-stunning-services .service-item {
+    padding-right: 0;
+  }
+  /* Hanor Contactus Modern Page CSS */
+  .contact-form {
+    padding: 50px;
+  }
+  /* Hanor Contactus Simple Page CSS */
+  .contact-items {
+    padding-left: 0;
+  }
+  .vc_column-inner.service-col[class*="vc_custom"] {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .hanor-stunning-services {
+    padding: 30px 0 10px;
+    text-align: center;
+  }
+  .hanor-plans {
+    padding: 70px 0 70px;
+  }
+  .difference-item.toggle-align .difference-prim {
+    float: left;
+  }
+  .hanor-presentation {
+    margin-bottom: 30px;
+  }
+  .hanor-presentation.two {
+    margin: 30px 0 0;
+  }
+  .hanor-subscribe {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .hanor-services {
+    padding: 0;
+  }
+  .blogs-style-six .blog-info-wrap {
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 0;
+    width: 100%;
+  }
+  .blogs-style-six .blog-item.hanor .blog-info,
+  .blogs-style-six .blog-item .blog-info {
+    background-color: #f9f9f9;
+  }
+  /*Key figures*/
+  .hanor-large-out {
+    width: 350px;
+    height: 350px;
+  }
+  .large-out-inner {
+    width: 173px;
+    height: 173px;
+  }
+  .hanor-small-out {
+    width: 80px;
+    height: 80px;
+  }
+  .hanor-small-out .road-line {
+    width: 30px;
+    height: 37px;
+    border-width: 0 3px 0 3px;
+  }
+  .hanor-small-out .road-line span:before, .hanor-small-out .road-line span:after {
+    width: 3px;
+    height: 13px;
+  }
+  .figuress-item-wrap {
+    max-width: 350px;
+  }
+  .figuress-item {
+    margin: 20px 0;
+  }
+  .hanor-figuress-wrap .figuress-item:nth-child(3n), .hanor-figuress-wrap .figuress-item:nth-child(4n) {
+    margin-top: 40px;
+  }
+  /*We Do*/
+  .wedo-number h2:after {
+    width: 100%;
+    right: -100%;
+  }
+  /*Timeline*/
+  .timeline-item .row {
+    margin: 0;
+  }
+  .timeline-item [class*="col-"] {
+    width: 100%;
+    padding: 0 0 0 40px;
+  }
+  .timeline-year {
+    top: 10px;
+    left: -25px;
+    right: auto;
+  }
+  .timeline-item:nth-child(2n) .timeline-image:before,
+  .timeline-image:before {
+    right: auto;
+    left: -47px;
+  }
+  .timeline-item:nth-child(2n) .timeline-image,
+  .timeline-image {
+    float: left;
+    margin: 0;
+  }
+  .timeline-item:nth-child(2n) .timeline-info,
+  .timeline-info {
+    float: left;
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  .timeline-item:nth-child(2n) .timeline-info:after {
+    right: auto;
+    left: -20px;
+    transform: rotate(-90deg);
+  }
+  .timeline-menu:after {
+    right: auto;
+    left: 23px;
+  }
+  .timeline-menu:before {
+    left: 30px;
+  }
+  .timeline-menu {
+    padding: 80px 0 0 30px;
+  }
+  /* Havnor Shop Page CSS */
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width: 33.33333333%;
+  }
+  /* Havnor Product Detail Page CSS */
+  .woocommerce ol {
+    width: auto;
+  }
+  .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    width: auto;
+  }
+  .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    width: 100%;
+    padding: 10px 0 0;
+    float: left;
+  }
+  .woocommerce div.product form.cart, .woocommerce div.product p.cart {
+    width: 100%;
+  }
+  .woocommerce-tabs,
+  .woocommerce .woocommerce-tabs {
+    padding-top: 50px;
+  }
+  /* Havnor Cart Page CSS */
+  .woocommerce table.shop_table td.product-thumbnail {
+    padding-left: 20px;
+  }
+  .woocommerce table.shop_table td.product-thumbnail a img {
+    margin-right: 25px;
+  }
+  .woocommerce table.shop_table th .thumbnail-title {
+    padding-left: 0;
+  }
+  /* Sidemenu */
+  .hanor-navi-wrap {
+    padding: 10px 35px;
+  }
+  .hanor-main-wrap .sidebar-nav-wrap .hanor-navigation > ul > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .hanor-main-wrap .sidebar-nav-wrap .hanor-navigation li.has-dropdown > a:after {
+    top: 14px;
+  }
+  .sidebar-nav-wrap .hanor-brand, .header-hanor-style-two .sidebar-nav-wrap .hanor-brand {
+    padding: 15px 0 20px;
+    text-align: center;
+  }
+  .navi-wrap-inner .hanor-social, .header-hanor-style-two .navi-wrap-inner .hanor-social {
+    padding: 8px 0;
+  }
+  ul.sidebar-menu-social {
+    padding-top: 5px;
+  }
+  .close-btn a:before, .close-btn a:after {
+    width: 21px;
+  }
+  .hanor-section-title {
+    padding-bottom: 45px;
+  }
+  .hanor-page-share {
+    top: auto;
+    right: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .hanor-outcome-services.tab-style-one .nav-tabs > a span.tab-title {
+    font-size: 20px;
+  }
+  .hanor-outcome-services.tab-style-one .nav-tabs > a span[class*="pe-7s"] {
+    font-size: 55px;
+  }
+  .hanor-testimonials.testimonials-style-five .testimonial-author-quote {
+    width: 90%;
+    left: 20px;
+  }
+  .hanor-testimonials.testimonials-style-five .testimonial-author-image {
+    padding: 0 25px 10px 10px;
+  }
+  /* Promo */
+  .col-md-7.hanor-item.promo-primary {
+    width: 100%;
+  }
+  .col-md-5.hanor-item.promo-secondary {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .promo-style-two .col-md-5.hanor-item.promo-secondary {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .hanor-promo.promo-style-three .promo-secondary {
+    padding-right: 0;
+  }
+  .promo-info {
+    padding: 50px 0 0;
+  }
+  .promo-style-three .promo-info {
+    padding: 20px 0 30px;
+  }
+  .hanor-promo.toggle-align .hanor-image {
+    text-align: left;
+  }
+  .toggle-service-item {
+    padding: 25px;
+  }
+  .partnership-style-one .partnership-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .features-wrap {
+    width: 100%;
+  }
+  .hanor-mt-container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .each-location-tab .each-item-wrapper {
+    padding: 30px 18px;
+  }
+  .banner-center .hanor-breadcrumbs.breadcrumb-one {
+    width: 100%;
+    left: 0;
+  }
+  .banner-right .hanor-breadcrumbs.breadcrumb-one,
+  .hanor-breadcrumbs.breadcrumb-one {
+    left: 0;
+    right: 0;
+  }
+  .hanor-team-intro .member-details h2 {
+    font-size: 40px;
+  }
+  .hanor-portfolio-default .masonry-item {
+    width: 50%;
+  }
+  .hanor-outcome-services.tab-style-four .nav-tabs {
+    margin-top: 0;
+  }
+  .hanor-outcome-services {
+    padding: 50px 0 0;
+  }
+  .hanor-outcome-services.tab-style-five {
+    display: inline-block;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .hanor-outcome-services.tab-style-four a.active {
+    border: 1px solid #f4f7f9;
+  }
+  .hanor-presentation .hanor-image img {
+    max-width: 100%;
+  }
+  .hanor-presentation .hanor-image {
+    position: relative;
+    top: 0;
+    transform: none;
+    right: 0;
+  }
+  .feature-info {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+  }
+  .feature-carousel-space {
+    padding: 50px 0;
+  }
+  .hanor-footer .footer-bg-image {
+    background:none !important;
+  }
+
+  /* Mean Menu Custom Styles */
+  .hanor-header .hanor-navigation {
+    display: none!important;
+  }
+  .hanor-sidebar-toggle,
+  .hanor-header-three .hanor-full-wrap .hanor-sidebar-toggle {
+    display: none;
+  }
+  .hanor-center-header .hanor-toggle {
+    display: none;
+  }
+  .hanor-toggle.active,
+  .hanor-header-right .hanor-navigation {
+    display: none !important;
+  }
+  .header-hanor-style-two .navi-toggle {
+    display: none;
+  }
+  .header-five-menu-toggle {
+    display: none;
+  }
+  .hanor-header-three .hanor-sidebar-nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    z-index: 3;
+    top: 0;
+  }
+  .hanor-header-three .sidebar-nav-wrap {
+    padding: 13px 35px;
+  }
+  .hanor-header-three .sidebar-nav-wrap .hanor-brand {
+    text-align: left;
+    padding: 7px 0 20px;
+    float: left;
+  }
+  .hanor-header-three .mean-container .mean-bar {
+    width: 95%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .hanor-header-three .hanor-sidebar-nav nav.hanor-navigation {
+    display: none !important;
+  }
+  .has-sidebarnav .hanor-main-wrap {
+    margin-left: 0 !important;
+  }
+  .sidebarnav-open .hanor-sidebar-nav {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .sidebarnav-open .hanor-full-wrap, .sidebarnav-open .hanor-footer {
+    -webkit-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    transform: translateX(300px);
+  }
+  .hanor-full-wrap .hanor-sidebar-toggle {
+    display: block;
+  }
+  .has-sidebarnav .hanor-footer {
+    width: 100%;
+    left: 0;
+  }
+  .hanor-main-wrap.hanor-header-three, .has-sidebarnav .hanor-banner.slider-cnt-left .caption-wrap {
+    width: 100%;
+    margin-left: 0;
+  }
+  .hanor-navigation-wrap {
+    display: none;
+  }
+  nav.sidebar-nav-wrap.sidebar-menu-two,
+  .sidebar-nav-wrap .hanor-navigation {
+    display: none !important;
+  }
+  .header-links-wrap {
+    display: none;
+  }
+  .header-hanor-style-three.header-hanor-style-five .hanor-header .logo-wraper {
+    padding-bottom: 0;
+  }
+  .header-hanor-style-three.header-hanor-style-five .menu-wraper {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1199px) {
+  /* Hanor Landing Page CSS */
+  .hanor-stories .hanor-container {
+    max-width: 900px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  /* Hanor Normal CSS */
+  .hanor-container {
+    max-width: 825px;
+  }
+  .hanor-testimonials .hanor-container {
+    max-width: 920px;
+  }
+  /* Hanor Home Startup Page CSS */
+  .hanor-helps .row {
+    margin: 0;
+  }
+  .hanor-helps [class*="col-"] {
+    padding: 0;
+  }
+  /* Hanor Business Page CSS */
+  .hanor-quote .hanor-container, .hanor-testimonials.testimonials-style-four .hanor-container {
+    max-width: 945px;
+  }
+  /* Hanor Home Landing Page CSS */
+  .hanor-subscribe .hanor-container {
+    max-width: 974px;
+  }
+  /* Hanor Services Classic Page CSS */
+  .services-style-four .row {
+    margin: 0;
+  }
+  .services-style-four [class*="col-"] {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:991px) {
+  /* Hanor Normal CSS */
+  .masonry-item {
+    width: 50%;
+  }
+  .hanor-title-wrap {
+    display: inline-block;
+    width: 80%;
+  }
+  .hanor-sticky-footer .main-wrap-inner {
+    margin-bottom: 0 !important;
+  }
+  .hanor-sticky-footer .hanor-footer {
+    position: static;
+  }
+  .owl-drag .owl-prev:before {
+    left: -25px;
+  }
+  .owl-drag .owl-next:before {
+    right: -25px;
+  }
+  .blogs-style-six .owl-drag .owl-next:before {
+    right: 0;
+  }
+  .blogs-style-six .owl-carousel .owl-prev:before, .blogs-style-six .owl-carousel .owl-next:before {
+    top: 0;
+  }
+  .hanor-masonry .work-item {
+    display: inline-block;
+  }
+  .hanor-pagination.pagination-spacer-one, .hanor-pagination.pagination-spacer-three, .hanor-pagination.pagination-spacer-four {
+    padding-top: 25px;
+  }
+  .caption-wrap-inner {
+    max-width: 100%;
+  }
+  .caption-wrap-inner br {
+    display: none;
+  }
+  .hanor-promo {
+    text-align: center;
+  }
+  .promo-item:nth-child(2n) [class*="col-"]:first-child {
+    float: none;
+  }
+  .promo-info {
+    padding-top: 30px;
+  }
+  .toggle-align .hanor-image, .hanor-promo.toggle-align .hanor-image {
+    text-align: center;
+  }
+  .toggle-align .promo-primary {
+    float: unset;
+  }
+  .hanor-stats {
+    text-align: center;
+  }
+  .hanor-section-title br {
+    display: none;
+  }
+  .process-item {
+    max-width: 100%;
+  }
+  .hanor-plans .hanor-section-title {
+    padding: 0 0 50px;
+  }
+  .left-sidebar .hanor-primary {
+    float: none;
+  }
+  .left-sidebar .work-detail .hanor-secondary {
+    padding-right: 15px;
+  }
+  .hanor-primary {
+    float: none;
+    width: auto;
+    padding: 0 15px;
+  }
+  .hanor-secondary {
+    float: none;
+    width: auto;
+    padding: 70px 15px 0;
+  }
+  .hanor-footer div:first-child > .footer-widget {
+    max-width: 100%;
+  }
+  /* Hanor Home Startup Page CSS */
+  .help-item {
+    margin-bottom: 30px;
+    border-right: 1px solid #eeeeee;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .hanor-helps div:first-child > .help-item, .hanor-helps div:last-child > .help-item {
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .hanor-skills.skills-style-two {
+    text-align: center;
+  }
+  .hanor-skills.skills-style-two .hanor-section-title {
+    text-align: center;
+  }
+  .skills-style-two .hanor-video-wrap {
+    margin-bottom: 50px;
+  }
+  .skills-info-wrap {
+    padding-left: 0;
+  }
+  .testimonials-style-two .hanor-section-title  {
+    padding-bottom: 0;
+  }
+  .blogs-style-two .blog-info {
+    padding: 20px;
+  }
+  .blogs-style-two .blog-meta {
+    padding: 12px;
+    text-align: left;
+  }
+  .blogs-style-two .blog-info p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .blogs-style-two .blog-info-wrap {
+    padding-bottom: 5px;
+  }
+  /* Hanor Home Agency Page CSS */
+  .stats-style-two .hanor-section-title {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .stats-style-two .text-right {
+    text-align: center;
+  }
+  /* Hanor Home Business Page CSS */
+  .skills-style-three .skills-info-wrap {
+    padding: 50px 0 0;
+  }
+  /* Hanor Home Landing Page CSS */
+  .difference-item:nth-child(2n) [class*="col-"]:first-child {
+    float: none;
+  }
+  .difference-item .hanor-background {
+    min-height: 500px;
+  }
+  .difference-title br {
+    display: none;
+  }
+  .difference-item.toggle-align .difference-prim {
+    float: none;
+  }
+  /* Home Blog Page CSS */
+  .story-item {
+    margin-bottom: 70px;
+  }
+  
+  /* Hanor About Company Page CSS */
+  .promo-style-two .promo-info {
+    padding: 30px 0 25px;
+  }
+  .promo-style-two .promo-title {
+    padding-bottom: 15px;
+  }
+  .progress-items-wrap {
+    padding: 0;
+  }
+  /* Hanor About Me Page CSS */
+  .hanor-about-me .hanor-background {
+    min-height: 600px;
+  }
+  /* Hanor Services Classic Page CSS */
+  .services-style-four .service-item {
+    margin-bottom: 30px;
+    width: auto;
+  }
+  .services-style-four .service-item .hanor-image img, .services-style-four .service-info, .services-style-four div:first-child > .service-item .hanor-image img, .services-style-four div:first-child > .service-item .service-info, .services-style-four div:last-child > .service-item .hanor-image img, .services-style-four div:last-child > .service-item .service-info {
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .services-style-one .service-info {
+    padding-left: 0;
+    padding-top: 15px;
+  }
+  .wpb_column .services-style-four .service-item .hanor-image img, .wpb_column .services-style-four .service-item .service-info {
+    -webkit-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    border-radius: 5px !important;
+  }
+  .hanor-video-presentation .hanor-section-title {
+    text-align: center;
+  }
+  .video-presentation-info {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .hanor-outcome-services.tab-style-five .nav-tabs, .hanor-outcome-services.tab-style-five .large-title {
+    text-align: left;
+    max-width: 100%;
+  }
+  .hanor-outcome-services.tab-style-five .nav-tabs > a {
+    margin-bottom: 0;
+  }
+  /* Hanor Services Modern Page CSS */
+  .hanor-stunning-services .presentation-image {
+    margin-top: 25px;
+  }
+  /* Hanor Portfolio Single Page CSS */
+  .work-detail .hanor-primary {
+    width: auto;
+  }
+  .work-detail .hanor-secondary {
+    width: auto;
+    padding-left: 15px;
+  }
+  .portfolio-detail-items-wrap {
+    max-width: 100%;
+  }
+  .related-projects {
+    text-align: center;
+  }
+  /* Hanor Contactus Modern Page CSS */
+  .contact-form {
+    padding: 100px;
+  }
+  /* Hanor Contactus Simple Page CSS */
+  .contact-items {
+    padding-top: 50px;
+  }
+  .hanor-promo.promo-style-two .promo-item {
+    padding: 0;
+  }
+  .hanor-promo.promo-style-two .hanor-image.hanor-video-wrap {
+    margin-bottom: 15px;
+  }
+  .hanor-services,
+  .hanor-services.services-style-four {
+    text-align: center;
+  }
+  .hanor-services.services-style-five p {
+    margin-bottom: 20px;
+  }
+  .service-info {
+    padding-top: 15px;
+  }
+  .contact-wrap-style-wrap {
+    padding: 0;
+  }
+  .services-style-one .hanor-icon-image.hanor-image {
+    float: none;
+  }
+  .hanor-team .thumb-flexslider .slides li {
+    margin: 0 27px;
+  }
+  .hanor-team.team-style-four .style-four-width {
+    width: 33.33333%;
+  }
+  .hanor-team.team-style-four .style-four-width .mate-item {
+    padding-bottom: 0;
+  }
+  .hanor-outcome-services {
+    padding: 50px 0 0;
+  }
+  .hanor-outcome-services.tab-style-five {
+    padding: 20px;
+  }
+  .hanor-outcome-services.tab-style-four .nav-tabs {
+    margin-top: 0;
+  }
+  .hanor-callout.callout-style-two .hanor-btn {
+    float: none;
+    margin: 20px 0 0;
+  }
+  .hanor-callout.callout-style-two h2, .hanor-callout.callout-style-two p {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .hanor-callout.callout-style-two {
+    padding: 35px 0;
+  }
+  .hanor-page-share {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    right: auto;
+    left: 0;
+    z-index: 1;
+  }
+  .hanor-page-share .hanor-social {
+    float: right;
+    position: absolute;
+    left: -30px;
+    right: auto;
+  }
+  .hanor-page-share .hanor-social:before {
+    left: auto;
+    right: -28px;
+    border-width: 36px 0 36px 28px;
+    border-color: transparent transparent transparent #efefef;
+  }
+  .hanor-outcome-services.tab-style-six .tab-six-wrap {
+    background-color: transparent;
+    border-bottom: none;
+  }
+  .hanor-page-share.hanor-hover .hanor-social {
+    left: 97px;
+    right: auto;
+    opacity: 1;
+  }
+  .subscribe-socials {
+    padding-bottom: 30px;
+  }
+  /*Key figures*/
+  .hanor-large-out {
+    display: none;
+  }
+  .figuress-item {
+    margin: 20px 0;
+    width: 100%;
+    padding: 0px;
+  }
+  .hanor-figuress-wrap {
+    padding: 40px 0;
+  }
+  .hanor-figuress-wrap .figuress-item:nth-child(2n) .figuress-item-wrap,
+  .figuress-item-wrap {
+    max-width: 100%;
+    margin: 0;
+  }
+  .figuress-item .icon-wrap {
+    float: left;
+  }
+  .figuress-item .figuress-info {
+    text-align: left;
+    padding: 0 0 0 30px;
+  }
+  .hanor-figuress-wrap .figuress-item:nth-child(3n), 
+  .hanor-figuress-wrap .figuress-item:nth-child(4n) {
+    margin-top: 15px;
+  }
+  /*Partners*/
+  .about-partners-item {
+    padding: 0;
+  }
+  .partners-item {
+    min-height: auto;
+    padding: 30px 0;
+    height: auto !important;
+  }
+  .partners-active.partners-item:after {
+    content: none;
+  }
+  .about-partners {
+    padding: 15px 20px 10px;
+    box-shadow: none;
+    margin: 0;
+  }
+  /* Team Seven */
+  .hanor-team .style-seven-width .hanor-image {
+    float: none;
+  }
+  .hanor-team .style-seven-width:nth-child(2n+2) .team-seven-img {
+    float: none;
+  }
+  .hanor-team .style-seven-width:nth-child(2n+2) .team-seven-img .hanor-image {
+    float: none;
+  }
+  .style-seven-width {
+    padding: 40px 0;
+  }
+  .hanor-team .style-seven-width .mate-info {
+    text-align: center;
+  }
+  .hanor-team .style-seven-width .hav-bg-img .hanor-image {
+    float: none;
+  }
+  /*We Do*/
+  .wedo-number h2:after {
+    content: none;
+  }
+  .process-wedo-item {
+    margin-bottom: 30px;
+  }
+  .postslider .postslider-wrap .pagerNavigationTop {
+    left: -30px;
+  }
+  .postslider .postslider-wrap .pagerNavigationBottom {
+    right: -30px;
+  }
+  .postslider .postslider-wrap:hover .pagerNavigationTop {
+    left: -20px;
+  }
+  .postslider .postslider-wrap:hover .pagerNavigationBottom {
+    right: -20px;
+  }
+  .nav-tabs > li.each-location-tab {
+    width: 50%;
+    padding: 0 8px;
+    margin: 0 auto 16px;
+  }
+  /* Havnor Shop Page CSS */
+  .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+    float: none;
+    margin: 0 0 30px;
+  }
+  .woocommerce .woocommerce-ordering, .woocommerce .woocommerce-result-count {
+    width: 100%;
+  }
+  .woocommerce .masonry-filters {
+    float: none;
+    padding: 0 0 25px;
+  }
+  .woocommerce .masonry-filters ul li {
+    padding: 0 20px 20px;
+  }
+  .woocommerce .woocommerce-ordering .nice-select {
+    margin-bottom: 10px;
+  }
+  /* Havnor Cart Page CSS */
+  .woocommerce .actions .coupon .input-text {
+    width: 220px;
+  }
+  .woocommerce .actions a.button.alt {
+    min-width: 200px;
+  }
+  /* Havnor Checkout Page CSS */
+  .woocommerce .col2-set .col-1, 
+  .woocommerce-page .col2-set .col-1 {
+    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .woocommerce .col2-set .col-2, 
+  .woocommerce-page .col2-set .col-2 {
+    padding-top: 50px;
+    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .woocommerce .cart-collaterals .cross-sells, .woocommerce-page .cart-collaterals .cross-sells,
+  .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    float: left;
+  }
+  .woocommerce .woo-col-3 ul.products li.product, 
+  .woocommerce-page .woo-col-3 ul.products li.product {
+    float: left;
+    margin: 0 0 30px;
+    padding: 0 15px;
+    position: relative;
+    width: 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .woocommerce .woo-col-3 ul.products li.product:nth-child(3n), .woocommerce-page .woo-col-3 ul.products li.product:nth-child(3n) {
+    margin: 0 0 30px;
+  }
+  /* Countdown */
+  h4.countdown-title {
+    text-align: center;
+    padding-bottom: 18px;
+  }
+  /*HF*/
+  .header-hanor-style-three .hanor-brand img {
+    margin: 0 auto;
+  }
+  .header-hanor-style-three .header-contents {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .header-hanor-style-three .header-links-right {
+    float: none;
+    text-align: center;
+  }
+  .header-hanor-style-three .hanor-navigation {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .header-hanor-style-three .hanor-navigation ul {
+    text-align: left;
+  }
+  .hanor-footer.footer-new-style-two .hanor-copyright [class*="col-"] {
+    text-align: center !important;
+    float: none !important;
+  }
+  .hanor-footer.footer-new-style-two .hanor-copyright [class*="col-"]:last-child {
+    padding-top: 15px;
+  }
+  .header-hanor-style-three .search-box {
+    left: 0;
+    margin: 0 auto;
+  }
+  .hanor-countdown .countdown_section {
+    margin-bottom: 20px;
+  }
+  .experience-item {
+    margin-bottom: 12px;
+  }
+  .hanor-counting .count-item .counter-value {
+    font-size: 24px;
+    width: 40px;
+    padding-top: 4px;
+  }
+  .services-style-one .service-info-wrap .hanor-icon {
+    float: none;
+  }
+  .hanor-testimonials.testimonials-style-four {
+    padding: 60px 0;
+  }
+  .hanor-testimonials.testimonials-style-five .owl-carousel .owl-prev:before {
+    right: 35px;
+  }
+  #world-map-markers {
+    width: 100% !important;
+    height: 400px !important;
+  }
+  .accordion-careers-style {
+    padding: 0 0 25px;
+  }
+  /* Job */
+  .hanor-job-search.search-style-two form [class*="col-"] {
+    max-width: unset;
+  }
+  .job-item {
+    text-align: center;
+  }
+  .job-item .hanor-image {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .job-info {
+    margin: 0 auto;
+  }
+  .job-item .hanor-btns-group {
+    text-align: center;
+    padding: 25px 0 20px;
+  }
+  .job-location {
+    text-align: center;
+  }
+  .hanor-job-search.search-style-two form input[type="submit"] {
+    width: 100%;
+  }
+  .plan-item.pricing-style-two .plan-title-wrap {
+    padding-bottom: 25px;
+  }
+  .hanor-widget.woocommerce.widget_shopping_cart .widget_shopping_cart_content {
+    padding: 16px;
+  }
+  .hanor-features.feature-style-two .feature-item {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .hanor-testimonials.testimonials-style-five {
+    padding: 30px 0 40px;
+  }
+  /* Online Reservation */
+  .otw-widget-form .otw-wrapper>div,
+  .otw-widget-form-wrap input.otw-submit,
+  .otw-widget-form-wrap {
+    width: 100%;
+  }
+  .wpb_widgetised_column.wpb_content_element {
+    display: inline-block;
+    width: 100%;
+  }
+  .hanor-footer.footer-new-style-two [class*="col-"]:last-child {
+    padding-left: 15px;
+  }
+  .hanor-footer.footer-new-style-two [class*="col-"] {
+    width: 100%;
+  }
+  .hanor-footer .hanor-copyright .pull-right, .hanor-footer .hanor-copyright .pull-left {
+    text-align: center;
+    float: none !important;
+  }
+  .hanor-footer .hanor-copyright .pull-right {
+    padding: 20px 0 17px;
+  }
+  .woocommerce-checkout .havnor-coupon-form {
+    width: 100%;
+    margin-right: 0;
+  }
+  .title-bar-btn {
+    float: left;
+  }
+  .title-bar-btn .header-buttons {
+    padding: 20px 15px 10px 0;
+  }
+  .header-buttons .hanor-btn {
+    margin-left: 0;
+  }
+  .stats-item {
+    margin-bottom: 45px;
+  }
+  .hanor-award {
+    padding-bottom: 15px !important;
+  }
+  .blogs-style-six .blog-item.col-md-6 {
+    float: left;
+  }
+  .hanor-footer .hanor-copyright .copyright-links li {
+    float: none;
+    padding-right: 8px;
+    padding-bottom: 0;
+  }
+  .hanor-footer .hanor-copyright .copyright-links li:after {
+    padding-left: 8px;
+  }
+  .hanor-footer ul.copyright-links {
+    padding-top: 12px;
+  }
+  .intro-img-section {
+    padding-top: 40px;
+  }
+  .hanor-testimonials.testimonials-style-five.team-hide-align .testimonial-author-quote {
+    left: 0;
+  }
+  .blog-single-metas .hanor-blog-tags,
+  .blog-single-metas .hanor-blog-tags.hanor-blog-cat {
+    width: 100%;
+    border-left: none;
+    text-align: left;
+  }
+  .blog-single-metas .hanor-blog-share {
+    text-align: left;
+  }
+
+}
+
+@media screen and (max-width:800px) {
+  /* Hanor Normal CSS */
+  .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .mfp-close:active {
+    top: 0;
+  }
+  .mfp-close:before, .mfp-close:after {
+    top: 9px;
+    left: 16px;
+  }
+  .mfp-arrow-left {
+    left: 15px;
+  }
+  .mfp-arrow-right {
+    right: 26px;
+  }
+  .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+    position: fixed;
+    top: 0;
+    width: 35px;
+  }
+  /* HF */
+  .header-hanor-style-one .hanor-header [class*="col-md-3"] {
+    width: 100%;
+    float: left;
+  }
+  .header-hanor-style-one .hanor-header .header-contents,
+  .header-hanor-style-one .hanor-header .header-links-right {
+    float: none;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:799px) {
+  /* Hanor Normal CSS */
+  .container {
+    padding: 0 25px;
+  }
+  .hanor-callout >.container {
+    padding: 0 10px;
+  }
+  .hanor-transparent-header .mean-container a.meanmenu-reveal,
+  .hanor-center-header .mean-container a.meanmenu-reveal {
+    right: 25px !important;
+  }
+  .hanor-transparent-header .mean-container a.meanmenu-reveal {
+    border-color: #fff;
+  }
+  .mean-container .mean-nav {
+    float: none;
+    display: block;
+    margin: 89px auto 0;
+  }
+  .hanor-header-three .mean-container .mean-nav {
+    width: 100%;
+  }
+}
+@media screen and (max-width:782px) {
+  .admin-bar .hanor-navi-wrap {
+    height: calc(100% - 46px);
+  }
+  .admin-bar .hanor-navi-wrap.open {
+    top: 46px;
+  }
+  .admin-bar .hanor-header-three.mean-container .mean-bar {
+    top: 46px;
+  }
+}
+@media screen and (max-width:768px) {
+  section.hanor-portfolio-four {
+    text-align: center;
+  }
+}
+@media screen and (min-width:768px) {
+  /* Hanor Normal CSS */
+  form .row {
+    margin: 0 -7px;
+  }
+  form [class*="col-"] {
+    padding: 0 7px;
+  }
+  .hanor-fullwidth-header .hanor-brand {
+    padding: 34px 0;
+  }
+  .hanor-fullwidth-header .hanor-navigation > ul > li > a {
+    padding-top: 41px;
+    padding-bottom: 41px;
+  }
+  .hanor-fullwidth-header .header-links-wrap {
+    padding-left: 21px;
+    margin: 34px 0 34px 8px;
+    border-left: 1px solid #e3e3e3;
+  }
+  .hanor-fullwidth-header .header-buttons {
+    padding: 29px 0;
+  }
+  /*HF*/
+  .hanor-fullwidth-header .header-links-wrap {
+    padding-left: 21px;
+    margin: 29px 0 29px 8px;
+    border-left: 1px solid #e3e3e3;
+  }
+  .hanor-fullwidth-header .header-buttons {
+    padding: 29px 0;
+  }
+  /* Hanor Home Agency Page CSS */
+  .hanor-free-trail .hanor-container {
+    max-width: 685px;
+  }
+  /* Hanor Home Landing Page CSS */
+  .hanor-get-app .hanor-container {
+    max-width: 585px;
+  }
+  /* Hanor Contactus Modern Page CSS */
+  .contact-form form .row {
+    margin: 0 -12px;
+  }
+  .contact-form form [class*="col-"] {
+    padding: 0 12px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  /* Hanor Normal CSS */
+  .hanor-topbar.hide-topbar-responsive {
+    display: none;
+  }
+  .custom-border, .custom-border-construction {
+    border: none;
+  }
+  h1, .h1 {
+    font-size: 30px;
+  }
+  h2, .h2 {
+    font-size: 26px;
+  }
+  h2.vc_custom_heading {
+    font-size: 26px !important;
+    line-height: 38px !important;
+  }
+  .h3, h3 {
+    font-size: 24px;
+  }
+  .h4, h4 {
+    font-size: 22px;
+  }
+  .h5, h5 {
+    font-size: 20px;
+  }
+  .h6, h6 {
+    font-size: 18px;
+  }
+
+  iframe {
+    height: 250px;
+  }
+  form input[type="submit"] {
+    margin-top: 6px;
+  }
+  blockquote {
+    padding: 15px;
+  }
+  blockquote p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  blockquote cite {
+    padding-top: 0;
+  }
+  textarea, textarea.form-control {
+    height: 130px;
+  }
+  .hanor-transparent-header .mean-container a.meanmenu-reveal, .hanor-center-header .mean-container a.meanmenu-reveal {
+    right: 0 !important;
+  }
+  .owl-carousel .owl-nav {
+    display: none;
+  }
+  .owl-carousel .owl-dots {
+    padding-top: 15px;
+  }
+  .testimonials-style-two .owl-carousel .owl-dots,
+  .owl-carousel[data-animatein="fadeIn"] .owl-dots {
+    position: static;
+    width: auto;
+    padding-top: 19px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .testimonials-style-two .owl-carousel .owl-dots .owl-dot,
+  .owl-carousel[data-animatein="fadeIn"] .owl-dots .owl-dot {
+    margin: 0 7px;
+  }
+  .swiper-pagination, .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom {
+    bottom: 25px;
+  }
+  .swiper-button-prev, .swiper-button-next {
+    display: none;
+  }
+  .nav-tabs {
+    margin-bottom: 15px;
+  }
+  .panel-title {
+    font-size: 15px;
+  }
+  .panel-content {
+    padding-top: 15px;
+  }
+  .accordion-style-two .panel-default {
+    padding-bottom: 30px;
+  }
+  .accordion-style-two .panel-content p {
+    padding-bottom: 10px;
+  }
+  .accordion-style-two .panel-default .panel-heading {
+    padding-bottom: 5px;
+  }
+  .masonry-filters {
+    padding-bottom: 25px;
+    font-size: 15px;
+  }
+  .hanor-masonry {
+    margin: 0;
+    text-align: center;
+  }
+  .hanor-masonry[data-space] {
+    margin: 0;
+  }
+  .hanor-masonry[data-space] .masonry-item {
+    padding: 0 0 25px;
+  }
+  .hanor-masonry[data-items] .masonry-item {
+    width: 100%;
+  }
+  .masonry-item {
+    width: 100%;
+    padding: 0 0 25px;
+  }
+  .hanor-insights .masonry-item {
+    width: 400px;
+  }
+  .hanor-insights .masonry-item {
+    width: 400px;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    right: 0;
+  }
+  .masonry-item .hanor-image img {
+    width: auto;
+  }
+  .hanor-portfolio-default .masonry-item .hanor-image img {
+    width: 335px;
+  }
+  .hanor-masonry .work-item {
+    margin-bottom: 0;
+  }
+  .circle-progressbar h2 {
+    font-size: 30px;
+  }
+  .hanor-map {
+    height: 300px !important;
+    min-height: 300px;
+  }
+  .hanor-map-tab-content .tab-pane {
+    min-height: 300px;
+  }
+  .hanor-pagination[class*="pagination-spacer-"] {
+    padding-top: 0;
+  }
+  .hanor-main-wrap .hanor-fullscreen-navigation .hanor-navigation > ul > li > a {
+    padding: 15px 0;
+    font-size: 30px;
+  }
+  .hanor-fullwidth-header .hanor-header {
+    padding: 0 25px;
+  }
+  .hanor-center-header .hanor-brand {
+    float: left;
+  }
+  .hanor-center-header .hanor-toggle {
+    display: none;
+  }
+  .hanor-center-header .hanor-header .mean-container .mean-bar {
+    display: block;
+  }
+  .hanor-topbar .search-link {
+    padding-left: 0;
+  }
+  .hanor-dark-topbar .hanor-topbar ul > li {
+    margin: 6px 2px 6px 5px;
+  }
+  .hanor-dark-topbar .hanor-topbar ul > li:last-child {
+    margin-right: 5px;
+  }
+  .hanor-gray-topbar .hanor-topbar .pull-left {
+    padding-top: 5px;
+  }
+  .hanor-topbar {
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    padding: 10px 30px;
+  }
+  .hanor-fullwidth-topbar .hanor-topbar {
+    padding: 10px 30px;
+  }
+  .hanor-topbar ul > li {
+    padding: 5px 10px;
+  }
+  .hanor-topbar ul > li:last-child {
+    padding-right: 10px;
+  }
+  .hanor-topbar [class*="pull-"] {
+    position: static;
+  }
+  .hanor-topbar .pull-left {
+    width: 100%;
+    padding: 10px 0 5px;
+  }
+  .hanor-topbar .hanor-social {
+    float: none;
+  }
+  .hanor-topbar .pull-right {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .hanor-topbar .hanor-social a {
+    margin: 4px 6px 4px;
+  }
+  .hanor-topbar .hanor-social a:last-child {
+    margin-right: 6px;
+  }
+  .hanor-topbar .search-box {
+    top: 100%;
+  }
+  .hanor-header {
+    position: relative;
+  }
+  .header-style-one .hanor-header .container {
+    padding: 0;
+  }
+  .header-style-one .hanor-header {
+    padding: 0 25px;
+  }
+  .hanor-header-right {
+    position: static;
+  }
+  .search-box {
+    left: 25px;
+    right: 25px;
+    width: auto;
+  }
+  .header-buttons {
+    display: none;
+  }
+  .hanor-fullscreen-navigation .hanor-navigation {
+    padding: 50px 0;
+  }
+  .close-btn {
+    top: 18px;
+    right: 14px;
+  }
+  .close-btn a {
+    width: 45px;
+    height: 45px;
+  }
+  .hanor-banner, .hanor-banner[class*="banner-style-"], .swiper-container {
+    height: 450px;
+    min-height: 450px;
+  }
+  .caption-wrap-inner p {
+    padding: 5px 0;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .caption-wrap-inner h2 {
+    font-size: 36px !important;
+    line-height: 46px;
+  }
+  .caption-wrap-inner .hanor-btns-group, .caption-title {
+    padding: 5px 0;
+  }
+  .video-btn-title {
+    padding-top: 10px;
+  }
+  .video-btn {
+    width: 65px;
+    height: 65px;
+    font-size: 16px;
+  }
+  .hanor-section-title {
+    max-width: 100%;
+    padding-bottom: 20px !important;
+  }
+  .hanor-section-title p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .hanor-section-title h2, .promo-info h2, .difference-info h2, .my-info h2 {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+  .section-title {
+    padding-bottom: 10px;
+  }
+  .hanor-btns-group {
+    padding-top: 10px;
+  }
+  .hanor-btns-group.cpation-right {
+    text-align: left !important;
+    padding-top: 0 !important;
+  }
+  .hanor-skills .hanor-section-title, .hanor-skills.skills-style-two .hanor-section-title, .hanor-signup .hanor-section-title, .hanor-plans .hanor-section-title, .hanor-experience .hanor-section-title, .hanor-subscribe .hanor-section-title, .hanor-hire .hanor-section-title, .hanor-outcome-services .hanor-section-title, .hanor-popular-questions .hanor-section-title, .contact-form .hanor-section-title {
+    padding-bottom: 20px;
+  }
+  .small-circle-progressbar .skill-item {
+    padding-bottom: 20px;
+  }
+  .service-item {
+    padding-bottom: 15px;
+  }
+  .service-info {
+    padding-top: 15px;
+  }
+  .service-title {
+    padding-bottom: 5px;
+  }
+  .hanor-testimonials p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .hanor-blogs {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .hanor-blogs .hanor-btns-group {
+    padding-top: 10px;
+  }
+  .blog-item {
+    display: block;
+    max-width: 370px;
+    margin: 0 auto 25px;
+    text-align: left;
+  }
+  .blog-item > .hanor-image {
+    text-align: center;
+  }
+  .blog-info {
+    padding: 25px;
+  }
+  .blog-info-wrap {
+    min-height: 10px;
+  }
+  .blog-title {
+    padding-bottom: 8px;
+  }
+  .promo-info {
+    padding-top: 20px;
+  }
+  .promo-info p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .promo-info .hanor-btns-group {
+    padding-top: 10px;
+  }
+  .promo-title {
+    padding-bottom: 5px;
+  }
+  .hanor-stats {
+    padding: 0;
+  }
+  .stats-item {
+    padding: 0;
+    margin-bottom: 20px;
+    border-right: none;
+  }
+  .mate-item {
+    padding-bottom: 25px;
+  }
+  .mate-info {
+    padding-top: 15px;
+  }
+  .hanor-team.team-style-six .mate-item .hanor-image {
+    float: none;
+    padding-right: 0;
+  }
+  .hanor-team.team-style-six .mate-info {
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .hanor-team.team-style-one .hanor-image img {
+    width: auto;
+    margin: 0 auto;
+  }
+  .hanor-link {
+    padding-top: 5px;
+  }
+  .hanor-works {
+    padding: 50px 0 25px;
+  }
+  .hanor-works .owl-dots {
+    padding-top: 15px;
+  }
+  .work-item {
+    margin-bottom: 25px;
+  }
+  .hanor-testimonials {
+    padding: 50px 0;
+  }
+  .testimonial-author {
+    padding-top: 5px;
+  }
+  .testimonials-thumb-style .flexslider.thumb-flexslider {
+    padding-bottom: 15px;
+  }
+  .progress-item {
+    padding-bottom: 20px;
+  }
+  .work-skill-item {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .work-skill-item h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .work-skill-item .hanor-icon {
+    padding-bottom: 10px;
+  }
+  .work-skill-title {
+    padding-bottom: 5px;
+  }
+  .hanor-process {
+    padding: 50px 0 25px;
+  }
+  .process-item {
+    padding-bottom: 15px;
+  }
+  .process-item .hanor-icon {
+    padding-bottom: 10px;
+  }
+  .process-counter {
+    margin-bottom: 15px;
+  }
+  .process-separator {
+    display: none;
+  }
+  .process-title {
+    padding-bottom: 5px;
+  }
+  .hanor-plans {
+    padding: 50px 0 25px;
+    text-align: center;
+  }
+  .hanor-plans .hanor-section-title {
+    text-align: center;
+  }
+  .hanor-plans .hanor-section-title h2 {
+    line-height: 36px;
+  }
+  .hanor-plans .section-title {
+    padding-bottom: 20px;
+  }
+  .plan-item {
+    margin: 0 0 25px;
+  }
+  .plan-title-wrap {
+    padding: 25px 25px 15px;
+  }
+  .plan-title {
+    padding-bottom: 5px;
+  }
+  .plan-info {
+    padding: 25px 25px 35px;
+  }
+  .plan-info .hanor-btns-group {
+    padding-top: 10px;
+  }
+  .hanor-subscribe {
+    padding: 50px 15px 40px;
+  }
+  .hanor-subscribe input[type="submit"] {
+    margin-bottom: 0;
+  }
+  .hanor-subscribe .hanor-social {
+    padding-top: 25px;
+  }
+  section.hanor-clients.client-style-one {
+    padding: 0;
+  }
+  .hanor-full-wrap .hanor-banner {
+    margin-bottom: 25px;
+  }
+  .hanor-page-title {
+    padding: 80px 0 75px;
+  }
+  .hanor-page-title h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .hanor-skills {
+    padding: 50px 0 25px;
+  }
+  .skill-item {
+    padding-bottom: 15px;
+  }
+  .skill-item br {
+    display: none;
+  }
+  .skill-title {
+    padding-top: 10px
+  }
+  .hanor-questions {
+    padding: 50px 0 40px;
+  }
+  .hanor-mid-wrap, .hanor-mid-wrap[class*="mid-spacer-"] {
+    padding: 50px 0;
+  }
+  .work-detail .hanor-secondary {
+    padding-top: 0;
+  }
+  .hanor-widget, .hanor-widget.about-our-blog, .hanor-widget.post-categories-widget {
+    padding-bottom: 15px;
+  }
+  .hanor-widget:last-child {
+    padding-bottom: 0;
+  }
+  .hanor-widget h5.widget-title {
+    line-height: 24px;
+  }
+  .widget-title {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  .about-our-blog .hanor-image {
+    padding-bottom: 10px;
+  }
+  .post-categories-widget .widget-title {
+    margin-bottom: 20px;
+  }
+  .post-item {
+    padding-bottom: 25px;
+  }
+  .post-item:last-child {
+    padding-bottom: 0;
+  }
+  .post-title {
+    padding-bottom: 5px;
+  }
+  .hanor-widget.latest-posts-widget, .hanor-widget.search-widget {
+    padding-bottom: 20px;
+  }
+  .hanor-footer .hanor-logo {
+    padding-bottom: 10px;
+  }
+  .footer-widget.footer-newsletter-widget {
+    padding-bottom: 25px;
+  }
+  .footer-newsletter-widget .footer-widget-title {
+    padding-bottom: 20px;
+  }
+  .footer-widget-title {
+    padding: 0 0 15px;
+  }
+  .hanor-copyright {
+    padding-top: 5px;
+  }
+  /* Hanor Home Startup Page CSS */
+  .hanor-helps {
+    padding: 50px 0;
+  }
+  .help-item {
+    padding: 25px 25px 20px;
+    margin-bottom: 25px;
+  }
+  .help-item .hanor-icon {
+    padding-bottom: 20px;
+  }
+  .help-title {
+    padding-bottom: 8px;
+  }
+  .hanor-helps .hanor-btns-group {
+    padding-top: 5px;
+  }
+  .hanor-skills.skills-style-two {
+    padding: 50px 0 20px;
+  }
+  .skills-style-two .hanor-video-wrap {
+    margin-bottom: 25px;
+  }
+  .hanor-signup form input[type="submit"] {
+    min-width: 100%;
+    margin-top: 6px;
+  }
+  .clients-style-two .clients-wrap {
+    padding: 50px 0;
+  }
+  .hanor-testimonials.testimonials-style-two {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .hanor-testimonials.testimonials-style-two p {
+    font-size: 18px;
+  }
+  .testimonials-style-two .hanor-section-title {
+    text-align: center;
+  }
+  .testimonials-style-two .hanor-section-title h2 {
+    font-size: 28px;
+  }
+  .testimonials-style-two .testimonial-author {
+    padding-top: 5px;
+  }
+  .testimonial-author-image {
+    display: none;
+    float: none;
+    width: auto;
+  }
+  .hanor-testimonials.testimonials-style-five .testimonial-author-image {
+    padding: 10px;
+    display: inline-block;
+  }
+  .hanor-testimonials.testimonials-style-five .owl-stage-outer {
+    padding-top: 20px;
+  }
+  .testimonials-style-two .testi-content:before {
+    content: none;
+  }
+  .testimonials-style-two .testi-content {
+    margin-right: 0;
+  }
+  .testimonial-author-quote {
+    float: none;
+    width: auto;
+    padding-bottom: 0;
+  }
+  .blogs-style-two .blog-item {
+    margin-bottom: 25px;
+  }
+  .blogs-style-two .hanor-btns-group {
+    padding-top: 5px;
+  }
+  /* Hanor Home Agency Page CSS */
+  .hanor-stats.stats-style-two {
+    padding: 0;
+  }
+  .stats-style-two .hanor-section-title {
+    padding-bottom: 15px;
+  }
+  .stats-style-two .stats-item [class*="pe-7s-"] {
+    padding-bottom: 5px;
+  }
+  .hanor-services.services-style-two {
+    padding: 40px 0 20px;
+  }
+  .services-style-two .service-item {
+    padding-bottom: 30px;
+  }
+  .services-style-two .service-info {
+    padding-top: 15px;
+  }
+  .hanor-works.works-style-two {
+    padding-bottom: 50px;
+  }
+  .hanor-free-trail {
+    padding: 50px 0;
+  }
+  .hanor-free-trail .hanor-section-title {
+    padding-bottom: 20px;
+  }
+  .offer-alert {
+    padding-top: 0;
+    line-height: 26px;
+  }
+  /* Hanor Home Business Page CSS */
+  .hanor-skills.skills-style-three {
+    padding: 50px 0 25px;
+  }
+  .skills-style-three .hanor-section-title {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .skills-style-three .section-title {
+    padding-bottom: 10px;
+  }
+  .skills-style-three .skills-info-wrap {
+    padding-top: 5px;
+  }
+  .hanor-team.team-style-two {
+    padding: 50px 0 40px;
+    text-align: center;
+  }
+  .team-style-two .hanor-section-title {
+    padding-bottom: 15px;
+  }
+  .hanor-team .main-flexslider {
+    padding-top: 20px;
+  }
+  .hanor-team .testimonial-author-quote {
+    width: auto;
+    padding: 0;
+  }
+  .hanor-team .testimonial-author-quote p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .hanor-team .testimonial-author-quote .hanor-social {
+    padding-top: 5px;
+  }
+  .hanor-team .testimonial-author-quote .hanor-social a {
+    margin: 0 7px 7px 7px;
+  }
+  .hanor-team .testimonial-author {
+    padding-bottom: 0;
+  }
+  .hanor-team .testimonial-author h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .hanor-quote {
+    padding: 50px 0 40px;
+  }
+  .hanor-quote h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .hanor-quote .hanor-video-btn-wrap {
+    margin-bottom: 15px;
+  }
+  /* Hanor Home Landing Page CSS */
+  .hanor-professionals-suits {
+    padding: 50px 0 25px;
+  }
+  .professional-item {
+    padding-bottom: 15px;
+  }
+  .professional-info {
+    padding-top: 15px;
+  }
+  .professional-title {
+    padding-bottom: 5px;
+  }
+  .difference-item .hanor-background {
+    min-height: 300px;
+  }
+  .difference-info {
+    padding: 50px 25px;
+    text-align: center;
+  }
+  .difference-info p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .difference-info .hanor-btns-group {
+    padding-top: 10px;
+  }
+  .difference-title {
+    padding-bottom: 5px;
+  }
+  .hanor-experience {
+    padding: 50px 0;
+  }
+  .experience-item {
+    padding-bottom: 15px;
+  }
+  .experience-info {
+    padding-left: 25px;
+  }
+  .experience-title {
+    padding-bottom: 5px;
+  }
+  .buy-theme-wrap {
+    padding-top: 25px;
+    margin-top: 5px;
+  }
+  .hanor-presentation .hanor-section-title {
+    padding-bottom: 10px;
+  }
+  .hanor-presentation .panel-title {
+    font-size: 14px;
+  }
+  .hanor-get-app {
+    padding: 50px 0;
+  }
+  .hanor-get-app .hanor-section-title {
+    padding-bottom: 10px;
+  }
+  .hanor-callout {
+    padding: 50px 0 45px;
+  }
+  .hanor-callout h2, .hanor-callout.callout-style-three h2 {
+    font-size: 30px !important;
+    line-height: 35px;
+    padding-bottom: 10px;
+  }
+  /* Hanor Home Portfolio Page CSS */
+  .banner-style-two .caption-wrap-inner p, .banner-style-two .caption-title, .banner-style-two .caption-wrap-inner .hanor-btns-group {
+    padding: 5px 0;
+  }
+  /* Hanor Home Blog Page CSS */
+  .hanor-stories .hanor-section-title, .hanor-stories.stories-style-two .hanor-section-title {
+    padding-bottom: 15px;
+  }
+  .hanor-stories .owl-dots {
+    bottom: 20px;
+  }
+  .hanor-stories .hanor-subscribe {
+    padding: 50px 25px;
+  }
+  .hanor-stories .hanor-subscribe .section-title {
+    padding-bottom: 5px;
+  }
+  .story-item {
+    padding: 0 0 25px;
+    margin-bottom: 25px;
+  }
+  .story-info {
+    padding-top: 20px;
+  }
+  .story-info p {
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  .story-info h3 {
+    line-height: 34px;
+  }
+  .story-info .hanor-btns-group {
+    padding-top: 10px;
+  }
+  .story-date {
+    padding-bottom: 5px;
+  }
+  .story-title {
+    padding-bottom: 5px;
+  }
+  .stories-style-two .story-info {
+    padding: 30px;
+  }
+  .stories-style-three .story-item {
+    margin-bottom: 25px;
+  }
+  /* Hanor About Company Page CSS */
+  .hanor-promo.promo-style-two {
+    padding-bottom: 0;
+  }
+  .promo-style-two .promo-info {
+    padding-bottom: 25px;
+  }
+  .promo-style-two .promo-info h2 {
+    line-height: 36px;
+  }
+  .promo-style-two .promo-info .hanor-btns-group {
+    padding-top: 10px;
+  }
+  .promo-style-two .promo-title {
+    padding-bottom: 5px;
+  }
+  .hanor-services.services-style-three {
+    padding-top: 25px;
+  }
+  .services-style-three .service-item {
+    padding: 20px 25px;
+    margin-bottom: 25px;
+  }
+  .services-style-three .service-info {
+    padding-top: 10px;
+  }
+  .hanor-team.team-style-three {
+    padding-bottom: 20px;
+  }
+  .team-style-three .mate-item {
+    margin-bottom: 0;
+  }
+  .hanor-hire {
+    padding: 50px 0;
+  }
+  .hanor-hire .hanor-btns-group {
+    padding-top: 0;
+  }
+  /* Hanor About Me Page CSS */
+  .hanor-about-me .hanor-background {
+    min-height: 400px;
+  }
+  .my-info {
+    padding: 50px 25px;
+  }
+  .my-info p {
+    font-size: 17px;
+  }
+  .my-info .hanor-btns-group {
+    padding-top: 10px;
+  }
+  .my-info-wrap {
+    padding-top: 10px;
+  }
+  /* Hanor Services Classic Page CSS */
+  .services-style-four .section-title {
+    padding-bottom: 10px;
+  }
+  .services-style-four .service-item {
+    margin-bottom: 25px;
+  }
+  .services-style-four .service-item .hanor-icon {
+    padding-bottom: 20px;
+  }
+  .hanor-video-presentation {
+    padding: 50px 0;
+  }
+  .hanor-video-presentation .section-title {
+    padding-bottom: 10px;
+  }
+  .hanor-video-presentation .hanor-btns-group {
+    padding-top: 10px;
+  }
+  .video-presentation-info {
+    padding-bottom: 25px;
+  }  
+  .hanor-outcome-services .section-title {
+    padding-bottom: 10px;
+  }
+  .hanor-outcome-services .nav-tabs {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .hanor-outcome-services .nav-tabs > a {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .hanor-outcome-services.tab-style-one .nav-tabs > a {
+    width: 100%;
+    padding-right: 0;
+  }
+  .hanor-outcome-services.tab-style-six .nav-tabs > a {
+    width: 100%;
+    margin-bottom: 15px;
+    padding-right: 0;
+  }
+  .hanor-outcome-services .nav-tabs > a span.tab-title {
+    padding-top: 15px;
+    font-size: 22px;
+  }
+  .hanor-outcome-services.tab-style-five.tab-dark-version .large-title {
+    font-size: 30px;
+  }
+  .hanor-outcome-services .nav-tabs > a {
+    padding-bottom: 15px;
+  }
+  .hanor-outcome-services .nav-tabs > a .tab-title {
+    padding-top: 10px;
+  }
+  .hanor-outcome-services .tab-pane .hanor-image {
+    padding-top: 10px;
+  }
+  /* Hanor Services Modern Page CSS */
+  .hanor-stunning-services .hanor-section-title {
+    padding: 0 0 10px;
+    text-align: center;
+  }
+  .hanor-stunning-services .section-title {
+    padding-bottom: 10px;
+  }
+  .hanor-stunning-services .service-item {
+    padding-bottom: 10px;
+  }
+  .hanor-stunning-services .service-info {
+    padding-top: 10px;
+  }
+  .hanor-stunning-services .service-info h5 {
+    line-height: 24px;
+  }
+  .hanor-stunning-services .service-title {
+    padding-bottom: 5px;
+  }
+  .hanor-stunning-services .presentation-image {
+    margin-top: 0;
+  }
+  .testimonials-style-four .testimonial-author-image {
+    display: block;
+    width: auto;
+    padding: 0 0 15px;
+  }
+  .testimonials-style-four .testimonial-author-quote {
+    width: auto;
+  }
+  /* Hanor Faq & Pricings Page CSS */
+  .hanor-popular-questions {
+    padding: 50px 0;
+  }
+  /* Hanor Portfolio Single Page CSS */
+  .work-detail-wrap .work-title {
+    padding-bottom: 5px;
+  }
+  .work-detail-wrap h3 {
+    font-size: 24px;
+  }
+  .work-detail-wrap h4 {
+    line-height: 26px;
+  }
+  .work-detail-wrap-title {
+    padding: 5px 0;
+  }
+  .portfolio-detail-items-wrap {
+    padding-top: 0;
+  }
+  .portfolio-detail-item {
+    padding: 13px 0;
+  }
+  .related-projects {
+    padding: 40px 0;
+  }
+  .portfolio-controls {
+    padding: 25px 0;
+    margin-top: 15px;
+  }
+  /* Hanor Blog Grid Sidebar Page CSS */
+  .blogs-style-three .blog-item {
+    margin-bottom: 25px;
+  }
+  .blogs-style-three .blog-item .blog-info {
+    padding: 25px;
+  }
+  .blogs-style-three .blog-info-wrap {
+    min-height: 10px;
+  }
+  /* Hanor Blog Single Page CSS */
+  .blog-image {
+    padding-bottom: 20px;
+  }
+  .hanor-blog-detail .hanor-related-articles .blog-item {
+    margin-bottom: 25px;
+  }
+  .blog-detail-wrap {
+    padding-bottom: 15px;
+  }
+  .blog-detail-wrap p {
+    padding-bottom: 10px;
+  }
+  .blog-detail-wrap .blog-title {
+    padding-bottom: 5px;
+  }
+  .blog-detail-wrap blockquote p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hanor-blog-meta {
+    padding: 30px 0;
+    margin-bottom: 30px;
+  }
+  .hanor-blog-tags {
+    padding-bottom: 20px;
+  }
+  .blog-meta-title {
+    padding-bottom: 10px;
+  }
+  .hanor-related-articles {
+    padding-bottom: 10px;
+  }
+  .hanor-related-articles h3 {
+    font-size: 22px;
+  }
+  .related-articles-title {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .hanor-author-info {
+    padding: 20px 25px;
+    margin-bottom: 25px;
+  }
+  .author-content {
+    padding-left: 25px;
+  }
+  .author-content .author-name {
+    margin-bottom: 5px;
+  }
+  .comments-section {
+    padding-bottom: 0;
+  }
+  .hanor-comments-area h3 {
+    font-size: 22px;
+  }
+  .hanor-comments-area .comments-title {
+    padding-bottom: 15px;
+  }
+  .hanor-comments-area .comment-item {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+  .hanor-comments-area .hanor-comments-meta {
+    padding-bottom: 8px;
+  }
+  .hanor-comments-area .comment-main-area {
+    padding: 0 0 0 25px;
+  }
+  .hanor-comments-area .comments li .children li {
+    padding-left: 30px;
+  }
+  .hanor-blog-detail .comment-reply-title {
+    padding-bottom: 15px;
+  }
+  .hanor-comment-form textarea {
+    height: 130px;
+  }
+  /* Hanor Content Cross Check Page CSS */
+  .hanor-unit-fix .entry-content .comment-form {
+    padding-top: 0;
+  }
+  .hanor-unit-fix .entry-content .comment-list article, .hanor-unit-fix .entry-content .comment-list .pingback, .hanor-unit-fix .entry-content .comment-list .trackback {
+    padding: 15px 0 20px;
+  }
+  .entry-content dd {
+    margin-bottom: 10px;
+  }
+  .wp-caption {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .entry-content .comment-list article, .entry-content .comment-list .pingback, .entry-content .comment-list .trackback {
+    padding: 20px 0;
+  }
+  .entry-content .comment-content ul, .entry-content .comment-content ol {
+    margin: 0 0 10px 0;
+  }
+  .entry-content .comment-metadata {
+    margin-bottom: 5px;
+  }
+  .entry-content .comment-list .comment-reply-link {
+    margin-top: 0;
+  }
+  .entry-content .comment-list .children {
+    padding-left: 0;
+  }
+  .entry-content .comment-notes, .entry-content .comment-awaiting-moderation, .entry-content .logged-in-as, .entry-content .form-allowed-tags {
+    padding-bottom: 10px;
+  }
+  /* Hanor 404 Error Page CSS */
+  .hanor-404-error {
+    height: auto !important;
+    min-height: 10px;
+    padding: 80px 0 100px;
+  }
+  .hanor-transparent-header .hanor-404-error {
+    padding: 170px 0 100px;
+  }
+  .hanor-404-error p {
+    font-size: 17px;
+  }
+  .hanor-404-error h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  .hanor-404-error h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .hanor-404-error .hanor-btns-group {
+    padding-top: 10px;
+  }
+  .error-title {
+    padding-bottom: 5px;
+  }
+  .error-subtitle {
+    padding-bottom: 5px;
+  }
+  /* Team Style Eight */
+  .hanor-team.team-style-eight .hanor-image {
+    position: relative;
+    width: 370px;
+    margin: 0 auto;
+  }
+  .hanor-team.team-style-eight .mate-info {
+    text-align: center;
+  }
+  /* Hanor Contactus Modern Page CSS */
+  .hanor-contact-wrap {
+    padding: 50px 0 30px;
+  }
+  .contact-info-item {
+    padding-bottom: 10px;
+  }
+  .contact-info-item .hanor-icon {
+    width: 66px;
+    text-align: center;
+  }
+  .contact-info h4 {
+    font-size: 18px;
+  }
+  .contact-info-title {
+    padding-bottom: 5px;
+  }
+  .contact-form {
+    padding: 50px 25px;
+  }
+  /* Hanor Contactus Simple Page CSS */
+  .hanor-contact-wrap.contact-wrap-style-wrap {
+    padding-bottom: 30px;
+  }
+  .contact-wrap-style-wrap .contact-form input[type="submit"] {
+    margin-top: 5px;
+  }
+  .contact-items {
+    padding-top: 25px;
+  }  
+  .hanor-outcome-services.tab-style-four a.active {
+    border: 1px solid #efefef;
+  }
+  .hanor-outcome-services.tab-style-four .nav-tabs a {
+    width: 60% !important;
+    margin: 3px 0;
+  }
+  .featured-wrap .item {
+    text-align: center;
+  }
+  .featured-wrap .featured-item {
+    display: inline-block;
+  }
+  .featured-style-one .featured-wrap {
+    text-align: center;
+  }
+
+  .hanor-team.team-style-four .style-four-width {
+    width: 50%;
+  }
+  .hanor-copyright {
+    text-align: center;
+  }
+  .hanor-copyright .pull-left,
+  .hanor-copyright .pull-right {
+    width: 100%;
+    float: none !important;
+    text-align: center;
+  }
+  .copyright-wrap {
+    padding-bottom: 15px;
+  }
+  .hanor-features .feature-item.col-three {
+    width: 100%;
+  }
+  .header-links-wrap {
+    margin: 29px 63px 30px 0;
+  }
+  /* Havnor Shop Page CSS */
+  .woocommerce ul.products {
+    padding-top: 15px;
+    margin: 0;
+  }
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    float: none;
+    width: 100%;
+    padding: 0 0 25px;
+  }
+  .woocommerce ul.products li.product a img {
+    width: auto;
+  }
+  .woocommerce .masonry-filters {
+    padding-bottom: 10px;
+  }
+  .woocommerce nav.woocommerce-pagination ul {
+    margin: 0;
+  }
+  .woocommerce .masonry-filters ul li {
+    padding: 0 15px 15px;
+  }
+  .woocommerce nav.woocommerce-pagination {
+    padding-top: 0;
+  }
+  .woocommerce .hanor-content-area {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+  /* Havnor Product Detail Page CSS */
+  .mid-spacer-four {
+    padding-bottom: 25px;
+  }
+  .woocommerce ol {
+    width: 27%;
+  }
+  .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    width: 73%;
+  }
+  .woocommerce ol li {
+    margin-bottom: 15px;
+  }
+  .woocommerce ol li:last-child {
+    margin-bottom: 0;
+  }
+  .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    padding: 20px 0 0;
+  }
+  .woocommerce div.product .product_title {
+    font-size: 20px;
+  }
+  .woocommerce div.product .woocommerce-product-rating {
+    margin-bottom: 5px;
+  }
+  .woocommerce div.product p.price {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  .woocommerce div.product .product-color {
+    display: block;
+    padding-top: 20px;
+  }
+  .woocommerce div.product form.cart, .woocommerce div.product p.cart {
+    padding: 10px 0 25px;
+  }
+  .yith-wcwl-add-to-wishlist {
+    display: block;
+    padding: 25px 0 0;
+  }
+  .woocommerce div.product .product_meta.meta-categories {
+    padding: 20px 0 0;
+  }
+  .product_meta .posted_in {
+    padding-bottom: 5px;
+  }
+  .woocommerce-tabs {
+    padding-top: 10px;
+  }
+  .woocommerce #reviews #comments ol.commentlist {
+    padding-top: 5px;
+  }
+  .woocommerce div.product .woocommerce-tabs .panel {
+    padding: 20px 0 15px;
+    margin-bottom: 15px;
+  }
+  .woocommerce div.product .woocommerce-tabs p {
+    padding-bottom: 10px;
+  }
+  .woocommerce #reviews #comments ol.commentlist .commentlist {
+    padding-left: 15px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li {
+  margin-bottom: 10px;
+}
+  .woocommerce #reviews #comments ol.commentlist .comment_container {
+    padding-bottom: 5px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text {
+    padding-left: 20px;
+  }
+  .woocommerce #reviews h3 {
+    padding: 0 0 5px;
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  .woocommerce #review_form #respond .comment-form-wrap {
+    padding-top: 20px;
+  }
+  .woocommerce #review_form #respond input[type="text"], .woocommerce #review_form #respond input[type="email"], .woocommerce #review_form #respond textarea {
+    margin-bottom: 20px;
+  }
+  .woocommerce #reviews #comment {
+    height: 120px;
+  }
+  .woocommerce .related-products {
+    padding-top: 10px;
+  }
+  .woocommerce .related-products h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  /* Havnor Cart Page CSS */
+  .woocommerce table.shop_table td.product-thumbnail a img {
+    max-width: 80px;
+  }
+  .woocommerce table.shop_table td {
+    padding: 20px 20px;
+  }
+  .woocommerce .cart_totals {
+    padding: 25px 0;
+  }
+  .woocommerce .actions {
+    padding-top: 25px;
+  }
+  .woocommerce .actions .pull-right {
+    width: 100%;
+    padding-top: 20px;
+  }
+  /* Havnor Checkout Page CSS */
+  .woocommerce form.login, .woocommerce form.register {
+    padding: 0;
+  }
+  .woocommerce form.checkout_coupon {
+    padding: 0 0 20px;
+  }
+  .woocommerce form.checkout_coupon input.input-text {
+    float: none;
+    width: 100%;
+  }
+  .woocommerce form.checkout_coupon input.button {
+    float: none;
+    margin: 15px 0 0;
+  }
+  .woocommerce-checkout {
+    padding-top: 0;
+  }
+  .woocommerce-checkout h3 {
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+  .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+    width: 100%;
+  }
+  .woocommerce form .additional-info {
+    padding: 25px 0 5px;
+  }
+  .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    padding-top: 15px;
+  }
+  .woocommerce form .form-text {
+    margin-bottom: 15px;
+  }
+  .woocommerce form .form-row textarea {
+    height: 120px;
+  }
+  .woocommerce form .lost_password {
+    padding: 15px 0 20px;
+  }
+  .woocommerce-checkout-review-order {
+    padding: 15px 0px 25px;
+  }
+  .woocommerce div.create-account input[type="password"] {
+    margin-bottom: 0;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table thead th {
+    padding: 10px 20px 10px 0;
+    font-size: 18px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tbody td {
+    min-width: auto;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .order-total th {
+    padding: 10px 20px 10px 20px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tbody > tr:first-child > td {
+    padding-top: 15px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tbody > tr:last-child > td {
+    padding-bottom: 15px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot > tr:first-child > th, .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot > tr:first-child > td {
+    padding-top: 15px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .shipping th, .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .shipping td {
+    padding-bottom: 10px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .cart-subtotal .amount {
+    font-size: 16px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .order-total .amount {
+    font-size: 20px;
+  }
+  .woocommerce #add_payment_method #payment div.form-row, .woocommerce .woocommerce-cart #payment div.form-row, .woocommerce .woocommerce-checkout #payment div.form-row {
+    padding-top: 15px;
+  }
+  .woocommerce #add_payment_method #payment ul.payment_methods, .woocommerce .woocommerce-cart #payment ul.payment_methods, .woocommerce .woocommerce-checkout #payment ul.payment_methods {
+    padding: 5px 0 0;
+  }
+  .woocommerce table.shop_table td {
+    border-bottom: none;
+  }
+  .woocommerce table.shop_table tr:last-child td:last-child {
+    border-bottom: 1px solid #ececec;
+  }
+  .woocommerce table.shop_table tbody > tr .actions {
+    padding-bottom: 30px;
+  }
+  .hanor-item-cart-btns .pull-left, .hanor-item-cart-btns .pull-right {
+    text-align: center;
+    float: none !important;
+  }
+  .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+  .woocommerce table.cart td.actions .coupon .input-text+.button,
+  .woocommerce-page table.cart td.actions .coupon .input-text+.button {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+  }  
+  .woocommerce table.cart td.actions .coupon, .woocommerce-page table.cart td.actions .coupon {
+    float: none;
+    padding: 0 0 20px;
+  }
+  .woocommerce-cart table.cart td.actions .coupon .input-text {
+    width: 100%;
+  }
+  .woocommerce .woo-col-3 ul.products li.product, .woocommerce-page .woo-col-3 ul.products li.product {
+    float: none !important;
+    margin: 0 auto 30px;
+    padding: 0 15px;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    display: table;
+  }
+  .woocommerce .woo-col-3 ul.products li.product:nth-child(3n), .woocommerce-page .woo-col-3 ul.products li.product:nth-child(3n) {
+    margin: 0 auto 30px;
+  }
+  .woocommerce .cart-collaterals .cross-sells ul.products li, .woocommerce-page .cart-collaterals .cross-sells ul.products li {
+    width: 100%;
+    max-width: 300px;
+  }
+  .woocommerce-shipping-calculator {
+    float: none;
+  }
+  .woocommerce form.woocommerce-cart-form table.shop_table thead, .woocommerce table.shop_table tr {
+    border: none;
+  }
+  .woocommerce-cart .cart-collaterals .cart_totals tr.shipping td, .woocommerce-cart .cart-collaterals .cart_totals tr.shipping th {
+    background: #fff;
+  }
+  /* Counter */
+  .hanor-stats.dhav-value-in.hav-icon span.hanor-counter {
+    width: auto;
+  }
+  .hanor-stats.hav-icon .stats-item [class*="pe-7s-"] {
+    width: auto;
+  }
+  /* Footer */
+  .hanor-footer .footer-bg-image {
+    padding: 60px 0 35px;
+  }
+  .hanor-widget .footer-widget-title {
+    padding-bottom: 25px;
+  }
+  .promo-style-three .promo-item {
+    padding: 0 15px;
+  }
+  .hanor-promo.promo-style-three .promo-secondary {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .hanor-blog-share.havnor-share-page .blog-share-title {
+    float: none;
+  }
+  .hanor-blog-share.havnor-share-page .hanor-social.rounded {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .similar-job .panel-title a {
+    font-size: 16px;
+  }
+  .hanor-portfolio .hanor-pagination {
+    padding-top: 30px;
+  }
+  .typewriter-caption, .hanor-typewriter {
+    font-size: 26px !important;
+  }
+  .hanor-simple-list .simple-list-content {
+    padding-bottom: 10px !important;
+  }
+  .topbar-search-cart {
+    float: none;
+  }
+  .hanor-subscribe-section {
+    padding: 20px 5px 20px;
+  }
+  .hanor-subscribe-section .subscribe-section-title {
+    font-size: 26px;
+    line-height: normal;
+  }
+  .hanor-pagination, .woocommerce-pagination {
+    padding-bottom: 30px;
+  }
+  .cargo-track-form input[type="submit"] {
+    width: 100%;
+  }
+  /* Product Single */
+  .woocommerce div.product div.images.woocommerce-product-gallery {
+    width: 100%;
+  }
+  .woocommerce div.product div.images .flex-control-thumbs {
+    width: 100%;
+  }
+  .woocommerce div.product div.images .flex-control-thumbs li {
+    padding: 15px 10px 0 0;
+    width: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    height: auto;
+  }
+  .single-product div.product .woocommerce-product-gallery .flex-viewport {
+    width: 100%;
+    height: auto !important;
+  }
+  .blogs-style-six .blog-item.col-md-6 {
+    width: 100%;
+    float: none;
+  }
+  .partners-item .hanor-image {
+    padding: 25px 0;
+  }
+
+}
+@media screen and (max-width:600px) {
+  .admin-bar .is-sticky .hanor-navi-wrap.open {
+    top: 0;
+  }
+  .admin-bar .is-sticky .hanor-navi-wrap {
+    height: 100%;
+  }
+}
+@media screen and (max-width:599px) {
+  /* Hanor Normal CSS */
+  h2.vc_custom_heading {
+    font-size: 22px !important;
+    line-height: 30px !important;
+  }
+  .flex-direction-nav li a.flex-prev, .flexslider:hover .flex-direction-nav a.flex-prev {
+    left: -10px;
+  }
+  .flex-direction-nav li a.flex-next, .flexslider:hover .flex-direction-nav a.flex-next {
+    right: -10px;
+  }
+  .caption-wrap-inner h2 {
+    font-size: 30px !important;
+    line-height: 36px;
+  }
+  .hanor-section-title h2, .promo-info h2, .difference-info h2, .my-info h2 {
+    font-size: 22px !important;
+    line-height: 32px !important;
+  }
+  .hanor-testimonials p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .hanor-page-title h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .stats-item [class*="pe-7s-"] {
+    padding: 0 0 2px;
+  }
+  /* Hanor Home Startup Page CSS */
+  .hanor-testimonials.testimonials-style-two p {
+    font-size: 17px;
+  }
+  .testimonials-style-two .hanor-section-title h2 {
+    font-size: 24px;
+  }
+  /* Hanor Home Agency Page CSS */
+  .hanor-free-trail input[type="email"] {
+    padding-right: 19px;
+  }
+  .hanor-free-trail input[type="submit"] {
+    position: static;
+    min-width: 100%;
+  }
+  .offer-alert {
+    padding-top: 15px;
+  }
+  /*Home Landing Pagre CSS */
+  .experience-item {
+    margin-bottom: 22px;
+  }
+  .experience-item.hanor-item {
+    padding: 20px 20px 15px;
+  }
+  /* Hanor Home Business Page CSS */
+  .hanor-team .thumb-flexslider {
+    max-width: 100%;
+    display: inline-block;
+  }
+  .hanor-team .thumb-flexslider .slides li {
+    margin: 0 8px;
+  }
+  .hanor-quote h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  /* Hanor Home Blog Page CSS */
+  .story-info h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .stories-style-two .story-info:before {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  /* Hanor About Company Page CSS */
+  .promo-style-two .promo-info h2 {
+    line-height: 32px;
+  }
+  /* Hanor About Me Page CSS */
+  .hanor-about-me .hanor-background {
+    min-height: 350px;
+  }
+  /* Hanor Portfolio Single Page CSS */
+  .work-detail-wrap h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  /* Hanor Blog Single Page CSS */
+  .hanor-author-info {
+    text-align: center;
+  }
+  .hanor-author-info .hanor-social a {
+    margin: 0 7px 5px;
+  }
+  .author-avatar {
+    float: none;
+  }
+  .author-content {
+    overflow: visible;
+    padding: 15px 0 0;
+  }
+  .hanor-comment-form input[type="submit"] {
+    min-width: 100%;
+  }
+  /* Hanor 404 Error Page CSS */
+  .hanor-404-error {
+    padding: 60px 0 80px;
+  }
+  .hanor-404-error h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .hanor-404-error h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .hanor-portfolio .hanor-pagination {
+    padding-top: 25px;
+  }
+  .blogs-style-four .hanor-pagination {
+    padding-top: 30px;
+  }
+  .hanor-primary {
+    margin-bottom: 30px;
+  }
+  .hanor-team.team-style-four .style-four-width {
+    width: 382px;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+  }
+  [class*="hanor-outcome-services"].hanor-outcome-services.tab-style-four .nav-tabs > a {
+    width: 100% !important;
+    margin: 0;
+  }
+  .hanor-job-detail .job-detail-item .job-detail-title,
+  .hanor-job-detail .job-detail-item .job-detail-subtitle {
+    width: 100%;
+  }
+  /* Havnor Product Detail Page CSS */
+  .woocommerce #reviews #comments ol.commentlist li .comment-text .star-rating {
+    display: block;
+    float: none;
+    margin-top: 10px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text .description {
+    padding-top: 5px;
+  }
+  .woocommerce #reviews #comments ol.commentlist .comment_container {
+    text-align: center;
+  }
+  .woocommerce #reviews #comments ol.commentlist li img.avatar {
+    float: none;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text {
+    padding: 15px 0 0;
+  }
+  .woocommerce .related-products h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .woocommerce #review_form #respond p.form-submit button[type="submit"] {
+    width: 100%;
+  }
+  .woocommerce div.product .woocommerce-tabs ul.tabs {
+    text-align: center;
+  }
+  .woocommerce div.product .woocommerce-tabs ul.tabs li {
+    display: inline-block;
+    float: none;
+    margin: 0 10px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text .star-rating {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Havnor Checkout Page CSS */
+  .woocommerce form.checkout_coupon input.input-text, .woocommerce form.checkout_coupon input.button {
+    width: 100%;
+  }
+  .woocommerce table.cart td.actions .coupon, .woocommerce-page table.cart td.actions .coupon {
+    text-align: center;
+  }
+  .woocommerce-cart table.cart td.actions .coupon .input-text {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+  .woocommerce table.cart td.actions .coupon .input-text+.button, .woocommerce-page table.cart td.actions .coupon .input-text+.button {
+    float: none;
+    width: 100%;
+  }
+  .woocommerce-checkout .havnor-login-form, .woocommerce-checkout .havnor-coupon-form {
+    width: 100%;
+  }
+  .hanor-outcome-services.tab-style-five .nav.nav-tabs a {
+    width: 100%;
+  }
+  .hanor-callout h2, .hanor-callout.callout-style-three h2 {
+    font-size: 28px !important;
+    line-height: 32px;
+    padding-bottom: 20px;
+  }
+  .hanor-callout.callout-style-three h2 {
+    margin-bottom: 0;
+  }
+  .hanor-success .success-content-section {
+    text-align: center;
+    padding: 35px;
+  }
+  .hanor-success .success-item .success-icon {
+    float: none;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .hanor-success .success-item .success-content-area {
+    padding-left: 0;
+  }
+  .partnership-style-one .partnership-item .hanor-image {
+    float: none;
+    text-align: center;
+  }
+  .partnership-style-one .partnership-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .partnership-style-one .patnership-content-section {
+    padding-left: 0;
+  }
+  .hanor-form-wrap.contact-drop-shadow {
+    padding: 20px;
+  }
+  .hanor-simple-list .simple-list-content {
+    padding-left: 10px !important;
+  }
+  .bmi-form {
+    padding: 30px 20px;
+  }
+  .bmi-form .bmi-col-half, .contact-form .bmi-form .bmi-col-half {
+    width: 100%;
+  }
+  .hanor-feature.featured-style-two .feature-content-area {
+    width: 80%;
+  }
+  .hanor-testimonials.testimonials-thumb-style .flex-direction-nav {
+    display: none;
+  }
+  .accordion-careers-style .panel-title a {
+    padding: 18px 55px 18px 45px;
+  }
+  .hanor-footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width:480px) {
+  .bx-controls-direction {
+    bottom: -52px;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+  .tweetSlideSection .bx-wrapper .bx-controls-direction a.bx-prev {
+    left: -70px !important;
+  }
+  .tweetSlideSection .bx-wrapper .bx-controls-direction a.bx-next {
+    right: -70px !important;
+  }
+  .woocommerce div.product div.images .flex-control-thumbs li {
+    width: 25%;
+  }
+  .accordion-style-two .panel-default {
+    padding-left: 50px;
+  }
+  .accordion-style-two .panel-default:before {
+    top: -5px;
+    width: 36px;
+    height: 36px;
+    padding: 9px 5px;
+    line-height: 19px;
+  }
+}
+@media screen and (max-width:479px) {
+  /* Hanor Normal CSS */
+  blockquote p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .nav-tabs {
+    display: block;
+    padding: 0;
+    margin-bottom: 10px;
+    border: none;
+  }
+  .nav-tabs > li {
+    float: none;
+  }
+  .nav-tabs > li.active:nth-child(2n) ~ .active-bg {
+    top: 50%;
+    left: 0;
+  }
+  .nav-tabs > li > a {
+    min-width: 100%;
+    margin: 0 0 10px;
+  }
+  .nav-tabs .active-bg {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+  }
+  .hanor-main-wrap .hanor-fullscreen-navigation .hanor-navigation > ul > li > a {
+    font-size: 28px;
+  }
+  .search-link {
+    padding: 0 10px;
+  }
+  .login-link {
+    display: none;
+  }
+  .caption-wrap-inner h2 {
+    font-size: 26px !important;
+    line-height: 32px;
+  }
+  .caption-wrap-inner .video-btn-title {
+    display: none;
+  }
+  .hanor-page-title {
+    padding: 60px 0 55px;
+  }
+  .blog-info h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* Hanor Home Startup Page CSS */
+  .blogs-style-two .blog-meta .hanor-image {
+    padding-right: 10px;
+  }
+  .hanor-outcome-services .nav-tabs > a span.tab-title {
+    font-size: 20px;
+  }
+  .hanor-outcome-services.tab-style-five.tab-dark-version .large-title {
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+  .hanor-outcome-services {
+    padding: 25px 0;
+  }
+  .hanor-outcome-services.tab-style-five .large-title {
+    font-size: 32px;
+  }
+  /* Hanor Home Landing Page CSS */
+  .experience-item {
+    text-align: center;
+  }
+  .experience-item .hanor-icon {
+    float: none;
+    padding-top: 0;
+  }
+  .experience-info {
+    padding: 15px 0 0;
+  }
+  .hanor-callout h2 {
+    font-size: 26px !important;
+    line-height: 36px;
+  }
+  /* Hanor Home Portfolio Page CSS */
+  .sidebarnav-open .hanor-full-wrap {
+    -webkit-transform: translateX(280px);
+    -ms-transform: translateX(280px);
+    transform: translateX(280px);
+  }
+  .hanor-sidebar-nav {
+    width: 280px;
+  }
+  .sidebar-nav-wrap {
+    padding: 30px;
+  }
+  /* Hanor Home Blog Page CSS */
+  .story-info h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .stories-style-two .story-info {
+    position: static;
+    padding: 25px;
+    background: #333333;
+  }
+  .stories-style-three .story-item .hanor-image img, .stories-style-three .story-item .hanor-iframe iframe {
+    -webkit-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+  }
+  .stories-style-three .story-info:before {
+    display: none;
+  }
+  .stories-style-three .story-info {
+    -webkit-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+  }
+  /* Hanor Services Classic Page CSS */
+  .services-style-four .service-item {
+    max-width: 390px;
+  }
+  .services-style-four .service-info {
+    padding: 25px 20px 15px;
+  }
+  .services-style-four .service-item .hanor-image img, .services-style-four div:first-child > .service-item .hanor-image img, .services-style-four div:last-child > .service-item .hanor-image img {
+    -webkit-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+  }
+  .services-style-four .service-info, .services-style-four div:first-child > .service-item .service-info, .services-style-four div:last-child > .service-item .service-info {
+    -webkit-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+  }
+  .hanor-outcome-services .nav-tabs > a {
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+  .hanor-outcome-services .nav-tabs > a {
+    display: block;
+    margin-bottom: 0;
+  }
+  /* Hanor Portfolio Single Page CSS */
+  .control-link-title {
+    display: none;
+  }
+  .portfolio-controls .control-link-title {
+    display: inline-block;
+  }
+  /* Hanor Blog Single Page CSS */
+  .blog-detail-wrap blockquote p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .hanor-comments-area .comment-image {
+    float: none;
+  }
+  .hanor-comments-area .comment-main-area {
+    overflow: visible;
+    padding: 15px 0 0;
+  }
+  .hanor-related-articles h3, .hanor-comments-area h3 {
+    font-size: 20px;
+  }
+  /* Hanor 404 Error Page CSS */
+  .hanor-404-error h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .hanor-404-error h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  /* Hanor Contactus Modern Page CSS */
+  .contact-info-item {
+    text-align: center;
+  }
+  .contact-info-item .hanor-icon {
+    float: none;
+    width: 100%;
+  }
+  .contact-info {
+    overflow: visible;
+    padding: 15px 0 0;
+  }
+  /* Hanor Contactus Simple Page CSS */
+  .contact-items .contact-info-item .hanor-icon {
+    width: 100%;
+  }
+  .timeline-info {
+    padding: 20px 20px;
+  }
+  .nav-tabs > li.each-location-tab {
+    width: 100%;
+  }
+  .woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button,
+  .woocommerce .woocommerce-message .button, .woocommerce-page .woocommerce-error .button,
+  .woocommerce-page .woocommerce-info .button, .woocommerce-page .woocommerce-message .button {
+    margin-bottom: 20px;
+  }
+  /* Havnor Cart Page CSS */
+  .woocommerce .cart_totals .pull-right {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .woocommerce .actions .coupon .input-text {
+    margin: 0 0 15px;
+  }
+  .woocommerce #reviews #comments ol.commentlist .commentlist {
+    padding-left: 0;
+  }
+  .woocommerce .cart_totals .pull-left {
+    width: 100%;
+  }
+  .woocommerce .cart_totals .hanor-btn, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce .actions a.button.alt {
+    width: 100%;
+  }
+   .woocommerce .actions .coupon .input-text {
+    width: 100%;
+    text-align: center;
+   }
+  /* Havnor Checkout Page CSS */
+  .woocommerce form .form-row label.inline {
+    display: block;
+    margin: 15px 0 0;
+  }
+  .woocommerce .wc_payment_method .wpcf7-list-item-label {
+    font-size: 14px;
+  }
+  /*HF*/
+  .header-hanor-style-two .hanor-header [class*="col-"] {
+    width: 100%;
+    text-align: center;
+  }
+  .header-hanor-style-two.hanor-fullwidth-header .hanor-brand, .header-hanor-style-two .hanor-brand {
+    width: auto;
+  }
+  .header-hanor-style-two .hanor-header .header-links-right {
+    float: none;
+  }
+  .header-hanor-style-two .header-links-wrap {
+    margin: 20px 0;
+  }
+  .header-hanor-style-two .hanor-brand {
+    padding: 20px 0 10px;
+  }
+  .header-hanor-style-two .navi-toggle {
+    padding: 30px 0 10px;
+  }
+  /* Team style Five */
+  .hanor-team.team-style-five .mate-item .hanor-image img {
+    width: auto;
+  }
+  .header-hanor-style-three .search-box {
+    width: 98%;
+  }
+  .hanor-footer .hanor-copyright.footer-cpy-dark-version .container {
+    padding: 18px 5px 5px;
+  }
+  .footer-widget .footer-links li {
+    width: 100%;
+  }
+  .hanor-award .hanor-image {
+    float: none;
+  }
+  .hanor-award .award-item {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .hanor-award {
+    padding-bottom: 10px !important;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .hanor-award .award-content-section {
+    padding-left: 0;
+  }
+  .hanor-callout {
+    padding: 30px 0 38px !important;
+  }
+  .hanor-success .success-content-section {
+    padding: 20px;
+  }
+  .hanor-insights .masonry-item {
+    width: 100%;
+  }
+  .contact-form {
+    padding: 50px 15px;
+  }
+  .plan-item.pricing-style-two .plan-info ul li {
+    font-size: 18px;
+  }
+  .widget-opening-hours .valuable-status-item,
+  .address-info.info-style-two {
+    padding: 25px;
+  }
+  .address-info.info-style-two i {
+    left: 25px;
+  }
+  .similar-job .panel-title a {
+    padding: 20px 55px 20px 45px;
+  }
+
+}
+
+@media screen and (max-width:440px) {
+  /* Hanor Services Classic Page CSS */
+  .services-style-four .service-item {
+    max-width: 100%;
+  }
+  .hanor-team.team-style-four .style-four-width .hanor-image img {
+    width: 100%;
+  }
+  .hanor-team.team-style-four .style-four-width {
+    width: 90%;
+  }
+  .hanor-form-wrap.contact-drop-shadow {
+    padding: 8px;
+  }
+  .similar-job .panel-group .panel-default .collapse .panel-body {
+    padding: 20px 25px 20px 45px;
+  }
+  .woocommerce div.product form.cart table.woocommerce-grouped-product-list td:first-child {
+    width: auto;
+  }
+  .woocommerce div.product form.cart .group_table td.woocommerce-grouped-product-list-item__label {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width:420px) {
+  /* Hanor Normal CSS */
+  .blog-item {
+    width: auto;
+  }
+  .sitemap-list ul li {
+    font-size: 18px;
+    padding: 0px 0 10px 20px;
+  }
+  .woocommerce .wc-proceed-to-checkout .button.alt {
+    min-width: auto;
+  }
+  /* Team Style Eight */
+  .hanor-team.team-style-eight .hanor-image {
+    width: 100%;
+  }
+
+  .figuress-item .icon-wrap {
+    width: 72px;
+  }
+  .figuress-item .hanor-icon {
+    width: 65px;
+    height: 65px;
+  }
+  .figuress-item .hanor-icon [class*="pe-7s"] {
+    font-size: 40px;
+  }
+  .figuress-item .figuress-info,
+  .hanor-figuress-wrap .figuress-item:nth-child(2n) .figuress-item-wrap .figuress-info {
+    width: calc(100% - 72px);
+    padding: 0 0 0 20px;
+  }
+  .figuress-item .figuress-info h3 {
+    font-size: 18px;
+  }
+  .hanor-portfolio-default .masonry-item .hanor-image img {
+    width: auto;
+  }
+  .hanor-breadcrumbs.breadcrumb-one {
+    position: relative;
+    bottom: 5px;
+    padding: 30px 0 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+  }
+  .hanor-signup-reg .hanor-container {
+    padding: 30px 20px;
+  }
+  .hanor-outcome-services.tab-style-five .nav-tabs > a span[class*="pe-7s"] {
+    font-size: 45px;
+  }
+  .hanor-testimonials.testimonials-thumb-style .thumb-flexslider .slides li {
+    margin: 0 3px;
+  }
+}
+
+@media screen and (max-width:359px) {
+  /* Hanor Normal CSS */
+  .caption-wrap-inner h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .blog-info, .blogs-style-two .blog-info {
+    padding: 20px;
+  }
+  .hanor-page-title h1 {
+    font-size: 28px;
+  }
+  /* Hanor Home Business Page CSS */
+  .plan-title-wrap h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  /* Segva Home Pinterest Gallery Page CSS */
+  .hanor-full-wrap .hanor-toggle-link.active {
+    top: 5px;
+    left: 5px;
+  }
+  .hanor-breadcrumbs ul li {
+    display: inline-block;
+    width: auto;
+  }
+  label.woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox span {
+    padding-left: 30px;
+    font-size: 16px;
+  }
+  .woocommerce input#ship-to-different-address-checkbox {
+    bottom: 15px;
+  }
+}

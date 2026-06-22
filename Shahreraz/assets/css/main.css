@@ -299,12 +299,24 @@ h6 {
 
 /* Global Header on Scroll
 ------------------------------*/
-.scrolled .header {
+/*.scrolled .header {
   --background-color: #5b5b5b;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --nav-color: #ffffff;
 }
+*/
+
+.scrolled .header {
+    --background-color: #ffffff; /* پس‌زمینه سفید */
+    --default-color: #333333; /* متن تیره برای خوانایی روی سفید */
+    --heading-color: #333333;
+    /*--nav-color: #2c5959;
+    --nav-hover-color: #1f7a7a;*/ /* رنگ هنگام هاور */
+    box-shadow: 0px 4px 15px rgba(44, 89, 89, 0.15);
+}
+
+
 
 /* Index Page Header
 ------------------------------*/
@@ -583,16 +595,20 @@ h6 {
 }
 
 
+
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  color: var(--default-color);
-  background: var(--background-color);
-  font-size: 14px;
-  padding: 80px 0 0;
-  position: relative;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+    --default-color: #333333; /* رنگ متن‌های عادی (خاکستری تیره مایل به مشکی) */
+    --heading-color: #1a252f;
+    color: var(--default-color);
+    /*  background: var(--background-color);*/
+    background: linear-gradient(to bottom, #fffef9 0%, #e6fcf9 100%);
+    font-size: 14px;
+    padding: 80px 0 0;
+    position: relative;
+    border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
 .footer .footer-content .logo {
@@ -899,6 +915,96 @@ input[type=email]::placeholder,
 textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
+/* ۱. سیاه کردن تمام متن‌ها، لینک‌ها و عناوین */
+.footer,
+.footer p,
+.footer h4,
+.footer .sitename,
+.footer .footer-links ul a,
+.footer .contact-info p,
+.footer .copyright p,
+.footer .footer-bottom-links a,
+.footer .credits,
+.footer .credits a {
+    color: #222222 !important; /* مشکی غلیظ */
+}
+
+    /* ۲. سیاه کردن آیکون‌های شبکه‌های اجتماعی */
+    .footer .social-links a {
+        color: #222222 !important;
+        background-color: rgba(0, 0, 0, 0.05) !important; /* یک پس‌زمینه بسیار ملایم برای دایره‌ها */
+    }
+
+        /* ۳. تغییر رنگ آیکون‌های شبکه‌های اجتماعی هنگام نگه داشتن موس (Hover) */
+        .footer .social-links a:hover {
+            color: #ffffff !important; /* وقتی موس روی دایره رفت، آیکون سفید شود */
+            background-color: var(--accent-color) !important; /* دایره به رنگ اصلی سایت دربیاید */
+        }
+
+    /* ۴. سیاه کردن آیکون‌های کوچک کنار لینک‌های مفید (فلش‌ها) */
+    .footer .footer-links ul a i {
+        color: #222222 !important;
+    }
+
+    /* ۵. سیاه کردن آیکون‌های تماس (تلفن، ایمیل، آدرس) */
+    .footer .footer-contact .contact-item .contact-icon i {
+        color: #222222 !important;
+    }
+
+/*فوتر*/
+/* ۱. تنظیم کل فوتر */
+.footer-section {
+    position: relative;
+    overflow: hidden;
+    /* این پدینگ بسیار مهم است: فضا ایجاد می‌کند تا گل‌ها در پایین فوتر جا شوند */
+    padding-bottom: 150px !important;
+}
+
+/* ۲. تنظیم تصویر گل‌ها */
+.bottom-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* ۳. تنظیم نوار کپی‌رایت */
+.footer-bottom {
+    position: absolute !important; /* نوار کپی رایت را از جریان اصلی جدا می‌کنیم */
+    bottom: 0; /* می‌چسبانیم به انتهای فوتر */
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* رنگ پس‌زمینه سفید برای خوانایی */
+    padding: 20px 0 !important;
+    border-top: 1px solid #ddd;
+    z-index: 2; 
+}
+@media (max-width: 768px) {
+    .bottom-shape {
+        width: 100%;
+        height: 250px; /* ارتفاع مناسب برای موبایل (کمتر از دسکتاپ ولی نه خیلی ریز) */
+        overflow: hidden;
+    }
+
+        .bottom-shape img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* تصویر را طوری می‌کشد که کادر را پر کند بدون اینکه دفرمه شود */
+            object-position: bottom; /* تمرکز تصویر را روی قسمت پایین (گل‌ها) نگه می‌دارد */
+        }
+    /* اگر از background-image استفاده می‌کنید، این کد را جایگزین کنید: */
+    .footer-section {
+        padding-bottom: 100px !important;
+        background-size: contain !important; /* یا auto 100px */
+        background-repeat: repeat-x; /* اجازه بده تصویر تکرار شود تا خالی نماند */
+    }
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -988,17 +1094,17 @@ textarea::placeholder {
 }
 
 .page-title .heading {
-  padding: 80px 0;
+  padding: 70px 0 0 0;
 }
 
 .page-title .heading h1 {
-  font-size: 38px;
+  font-size: 28px;
   font-weight: 400;
 }
 
 .page-title nav {
   background-color: color-mix(in srgb, var(--default-color), transparent 96%);
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
 
 .page-title nav ol {
@@ -1020,6 +1126,27 @@ textarea::placeholder {
   display: inline-block;
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+/*--------------------------------------------------------------
+# Mobile Optimization for Page Title & Breadcrumbs
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+    /* کاهش فاصله بالا در موبایل */
+    .page-title .heading {
+        padding: 58px 0 0 0 !important;
+    }
+
+    /* کاهش پدینگ دور منوی مسیر (Breadcrumb) */
+    .page-title nav {
+        padding:  10px 10px 0 0 !important;
+    }
+
+        /* کوچک‌تر کردن فونت مسیر برای جا شدن کامل در موبایل */
+        .page-title nav ol {
+            font-size: 14px !important;
+            padding-right: 10px !important; /* ایجاد فاصله کوچک از لبه راست گوشی */
+        }
 }
 
 /*--------------------------------------------------------------
@@ -5042,4 +5169,187 @@ section,
         bottom: -20px; /* میره پایین‌تر که روی کارت نیاد */
         width: 110px;
     }
+}
+
+/*********************************/
+/* ایجاد موقعیت نسبی برای سکشن تا المان‌ها از آن خارج نشوند */
+#service-details {
+    position: relative;
+    overflow: hidden; /* اگر تصویر از لبه زد بیرون، صفحه اسکرول افقی نخورد */
+}
+
+/* استایل پایه برای المان‌های شناور */
+.floating-icon {
+    position: absolute;
+    z-index: 1; /* زیر متن‌ها باشد */
+    pointer-events: none; /* اجازه می‌دهد کاربر روی متن‌های زیر آن کلیک کند */
+    opacity: 0.8;
+}
+
+/* تنظیم موقعیت گل (پایین سمت راست) */
+.flower-icon {
+    bottom: 30px;
+    left: 30px;
+    width: 120px; /* سایز دلخواه */
+}
+
+/* تنظیم موقعیت خورشید (بالا سمت چپ) */
+.sun-icon {
+    top: 30px;
+    left: 30px;
+    width: 100px; /* سایز دلخواه */
+}
+
+
+.wave-divider {
+    width: 100%;
+    height: 100px; 
+    background-image: url("assets/img/26.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    display: block;
+    line-height: 0;
+    margin: 0;
+    padding: 0 0 -60px 0;
+}
+
+
+
+/* غلبه بر استایل خط ۴۹۹۳ فایل main.css */
+footer.footer .footer-links ul li a {
+    color: #222222 !important;
+    opacity: 1 !important; /* برای اطمینان از حذف شفافیت */
+}
+
+    /* برای آیکون‌های داخل لینک‌ها */
+    footer.footer .footer-links ul li a i {
+        color: #222222 !important;
+    }
+
+    /* حالت هوور (رنگی شدن هنگام نگه داشتن موس) */
+    footer.footer .footer-links ul li a:hover,
+    footer.footer .footer-links ul li a:hover i {
+        color: var(--accent-color) !important;
+    }
+
+
+/******************************classessss*/
+/* ۱. حذف گرادینت پیش‌فرض قالب از روی آیکون‌ها */
+.feature-highlights .feature-item .feature-icon {
+    background: none !important;
+}
+
+/* ۲. اعمال ۶ رنگ شاد و متفاوت به ترتیب آیکون‌ها */
+.feature-highlights .row > div:nth-child(6n+1) .feature-icon {
+    background: #ffa126 !important; /* نارنجی */
+}
+
+.feature-highlights .row > div:nth-child(6n+2) .feature-icon {
+    background: #00bda7 !important; /* سبز فیروزه‌ای */
+}
+
+.feature-highlights .row > div:nth-child(6n+3) .feature-icon {
+    background: #ff4f79 !important; /* صورتی */
+}
+
+.feature-highlights .row > div:nth-child(6n+4) .feature-icon {
+    background: #9b5de5 !important; /* بنفش خلاقیت */
+}
+
+.feature-highlights .row > div:nth-child(6n+5) .feature-icon {
+    background: #8fd123 !important; /* سبز مغزپسته‌ای */
+}
+
+.feature-highlights .row > div:nth-child(6n) .feature-icon {
+    background: #29b6f6 !important; /* آبی آسمانی */
+}
+
+/* ۳. مطمئن شدن از سفید بودن رنگ آیکون‌های داخلی */
+.feature-highlights .feature-item .feature-icon i {
+    color: #ffffff !important;
+}
+.project-stats-card {
+    background: linear-gradient(135deg, #238f97 0%, #2aa0a9 45%, #60d8cd 100%) !important;
+    border: none !important;
+    border-radius: 24px !important;
+    box-shadow: 0 12px 35px rgba(42, 160, 169, 0.22) !important;
+    padding: 35px 25px !important;
+}
+
+.project-stats-card h3,
+    .project-stats-card .stat-number,
+    .project-stats-card .stat-label,
+    .project-stats-card i {
+        color: #ffffff !important;
+    }
+
+
+/* ۱. تنظیمات کلی برای آیکون‌ها */
+.service-details .service-main-content .features-included .feature-item .feature-icon {
+    width: 55px !important;
+    height: 55px !important;
+    border-radius: 14px !important;
+    font-size: 22px !important;
+    color: #ffffff !important;
+}
+
+/* ۲. رنگ‌بندی یکی در میان آیکون‌ها */
+
+/* آیتم اول (خواندن و نوشتن) - سبز فیروزه‌ای اصلی سایت */
+.service-details .service-main-content .features-included .row > div:nth-child(1) .feature-icon {
+    background: #2aa0a9 !important;
+    box-shadow: 0 5px 15px rgba(42, 160, 169, 0.3) !important;
+}
+
+/* آیتم دوم (ریاضی مفهومی) - نارنجی شاد */
+.service-details .service-main-content .features-included .row > div:nth-child(2) .feature-icon {
+    background: #ffa126 !important;
+    box-shadow: 0 5px 15px rgba(255, 161, 38, 0.3) !important;
+}
+
+/* آیتم سوم (هنری و خلاقانه) - بنفش ملایم */
+.service-details .service-main-content .features-included .row > div:nth-child(3) .feature-icon {
+    background: #9b6dff !important;
+    box-shadow: 0 5px 15px rgba(155, 109, 255, 0.3) !important;
+}
+
+/* آیتم چهارم (مهارت‌های اجتماعی) - صورتی جذاب */
+.service-details .service-main-content .features-included .row > div:nth-child(4) .feature-icon {
+    background: #ff4f79 !important;
+    box-shadow: 0 5px 15px rgba(255, 79, 121, 0.3) !important;
+}
+
+/* تنظیم کلی فونت و رنگ متن اعداد داخل دایره */
+.service-details .service-main-content .process-steps .step-item .step-number {
+    color: #ffffff !important; /* سفید بازتابی برای خوانایی عالی */
+    font-size: 1.6rem !important;
+    font-weight: bold !important;
+    border: none !important; /* حذف بوردر احتمالی */
+}
+
+/* --- رنگ‌بندی مرحله به مرحله (طیف زرد تا نارنجی) --- */
+
+/* گام ۱: زرد آفتابی و درخشان */
+.service-details .service-main-content .process-steps .steps-container .step-item:nth-child(1) .step-number {
+    background: linear-gradient(135deg, #ffe066 0%, #f5b000 100%) !important;
+    box-shadow: 0 5px 15px rgba(245, 176, 0, 0.3) !important;
+}
+
+/* گام ۲: زرد-نارنجی گرم (امبر) */
+.service-details .service-main-content .process-steps .steps-container .step-item:nth-child(2) .step-number {
+    background: linear-gradient(135deg, #ffbe40 0%, #f27a00 100%) !important;
+    box-shadow: 0 5px 15px rgba(242, 122, 0, 0.3) !important;
+}
+
+/* گام ۳: نارنجی زنده و شاد */
+.service-details .service-main-content .process-steps .steps-container .step-item:nth-child(3) .step-number {
+    background: linear-gradient(135deg, #ff9433 0%, #e65c00 100%) !important;
+    box-shadow: 0 5px 15px rgba(230, 92, 0, 0.3) !important;
+}
+
+/* گام ۴: نارنجی تیره/پررنگ غروب آفتاب (نشان‌دهنده کمال مسیر) */
+.service-details .service-main-content .process-steps .steps-container .step-item:nth-child(4) .step-number {
+    background: linear-gradient(135deg, #ff7352 0%, #d82c00 100%) !important;
+    box-shadow: 0 5px 15px rgba(216, 44, 0, 0.3) !important;
 }
